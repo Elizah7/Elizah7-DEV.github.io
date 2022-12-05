@@ -7,7 +7,7 @@ const About = ()=>{
     return (
         <>
            <h1 className="h1">about</h1>
-        hidjfkadlfihaer;fhaldkas
+       
         </>
     )
 

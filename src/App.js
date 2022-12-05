@@ -1,14 +1,18 @@
+import React from "react";
 
-import './App.css';
-import { Navbar } from './component/navbar';
-import {NavbarRoutes} from "./routes/routes"
-function App() {
-  return (
-   <div className='App'>
-      <Navbar/>
-      <NavbarRoutes/>
-   </div>
-  );
-}
+import './index.css';
+import { NavbarLink } from "./component/navbar";
 
+import "./App.css"
+
+const App = () => {
+       return(
+        <>
+           
+              <NavbarLink/>
+           
+             
+        </>
+       )
+  };
 export default App;
