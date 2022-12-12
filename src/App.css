@@ -1,42 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .App {
-
- 
   min-height:100vh ;
 }
 *{
   /* font-family: 'Open Sans'; */
   margin: 0;
   padding: 0;
-  background-color: rgb(30, 27, 27);
+
   box-sizing: border-box;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
 }
 
-
+.nnn{
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-left: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar{
+  z-index: 999;
+}
 .content{
-   width: 100vw;
-   height: 100vh;
-
-   border: 1px solid green;
+  width: 100vw;
+  height: 100vh;
 }
-.link{
-   color:black;
-   font-weight: 250%;
-   text-decoration: dashed;
+.container{
+  /* border: 1px solid red; */
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.linkk{
+  font-size: 100%;
+  width: fit-content;
+  height: auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+font-weight: 500;
+ border-radius: 7%;
+ color: white;
+}
+
+.linkk:link{
+  background-color:gray;
+ 
+}
+.linkk:hover{
+  background-color: rgb(100, 62, 62);
+  color: white;
 }
 
 .brand{
-  border: 1px solid red;
+ 
+  width: 6%;
+  height: 1%;
+  border-radius: 50%;
 }
-.brand>img{
-    width: 100%;
+.brand img{
+    width:100%;
+    border-radius: 50%;
     height: 100%;
 }
 
 .me-auto{
   margin-left: 40%;
-  border: 1px solid red;
+  /* border: 1px solid green; */
   width: 40%;
   display: flex;
   justify-content: space-between;
@@ -44,19 +76,7 @@
 .coloring{
   text-decoration: underline;
 }
-.stack{
-   border: 1px solid red;
-   width: 70%;
-   margin: auto;
- 
-   position: relative;
-   top: 5%;
-   height: 80%;
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 .bg-light {
     width: 20%;
 }
@@ -65,19 +85,426 @@
    height: 100%;
 }
 .anchor{
-
   position: relative;
   top: 5%;
-   /* display: block; */
-
-
-   
   }
   .div{
     margin-top: 80px;
   }
+.home{
+  background-color: black;
+  width: 100vw;
+  height: 100%;
+  margin-top: -2.5%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+.about-section{
+   margin-left: 4%;
+   width: 40%;
+}
+.image-section{
+  margin-left: 4%;
+  margin-top: 4%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+ height: 70%;
+ border-radius: 50%;
+ /* border: 1px solid red; */
+}
+.image-section img{
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+}
+.about-section{
+  /* border: 1px solid green; */
+  margin-top: 10%;
+  color: white;
+}
+.h2{
+  width: 5%;
+  margin: auto;
+  margin-top: 4%;
+}
+.skills-section{
+  width: 50%;
+  height: 60%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display:flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin-top: 2%;
+ background-color: rgb(242, 246, 246);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 2%;
+}
+.div-img{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+ height:20% ;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ border-radius: 8%;
+}
+.div-img img{
+   width: 70%;
+   height: 70%;
+
+}
+
+.projects-section{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.projects-container{
+   border: 1px solid red;
+   width: 70%;
+   height: 70%;
+   margin: auto;
+   margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.hp{
+  color: white;
+
+}
+.project-div{
+    width: 30%;
+    height: 100%;
+    border: 1px solid green;
+}
+.contact-section{
+  height: 50vh;
+
+}
+.contact{
 
 
+  height: 90%;
+  width: 50%;
+ margin: auto;
+margin-top: 3%;
+ text-align: center;
+ /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+.contact-child{
+
+  margin: auto;
+  width: 25%;
+  /* border: 1px solid red; */
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+ 
+}
+.contact-child>img{
+   width:25%;
+  
+}
+.h3{
+  margin-top: 2%;
+
+}
+.h5{
+  margin-top: 5%;
+
+}
+@media screen and (min-width: 360px) and (max-width:576px){
+   
+     .contact{
+       width: 90%;
+     }
+     .contact-section{
+      height: 50vh;
+      
+    }
+    .h3{
+      margin-top:15% ;
+    }
+    .h4{
+      margin-top: 8%;
+    }
+    .h5{
+      margin-top: 18%;
+    }
+    .contact-child{
+
+      margin: auto;
+      width: 30%;
+      /* border: 1px solid red; */
+      height: 15%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10%;
+     
+    }
+    .contact-child>img{
+      width:30%;
+      height: 100%;
+    
+   }
+     .home{
+       display: block;
+       text-align: center;
+       margin: auto;
+       margin-top: -17%;
+     }
+     .content-home{
+       background-color: black;
+     }
+     .about-section{
+       width: 80%;
+       height: 42%;
+       border: 1px solid blue;
+       margin: auto;
+       margin-top: 11%;
+     }
+     .about-section h1{
+      margin-top: 15%;
+    }
+     .image-section{
+      width: 80%;
+      height: 48%;
+      border: 1px solid red;
+      margin: auto;
+      margin-top: 22%;
+      
+     }
+     .image-section img{
+      width: 100%;
+      border-radius: 50%;
+      height: 100%;
+    }
+    
+    .skills-section{
+      width: 70%;
+      height: 60%;
+      margin: auto;
+      /* border: 1px solid red; */
+      display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin-top: 20%;
+     background-color: rgb(242, 246, 246);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      border-radius: 2%;
+    }
+    .div-img{
+      /* border: 1px solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+     height:20% ;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     border-radius: 8%;
+    }
+    .div-img img{
+       width: 70%;
+       height: 70%;
+    
+    }
+    .h2{
+      width: 15%;
+      margin: auto;
+      margin-top: 4%;
+    }
+    .hp{
+      margin-top: 5%;
+    }
+    .content-skills{
+      height: 60vh;
+    }
+    .content-project{
+       height: 160vh;
+    }
+    .projects-section{
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+    .projects-container{
+       border: 1px solid red;
+       width: 90%;
+       height: 70%;
+       margin: auto;
+       margin-top: 11%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .project-div{
+      width: 100%;
+      height: 45%;
+    }
+    
+
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+  .home{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5.5%;
+  }
+  .about-section{
+     margin-left: 4%;
+     margin-top: 25%;
+     width: 40%;
+     border: 1px solid red;
+  }
+  .image-section{
+    margin-left: 4%;
+    margin-top: 15%;
+    width: 40%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+ 
+   border: 1px solid red;
+  }
+  .h2{
+    width: 15%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .skills-section{
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display:flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 15%;
+   background-color: rgb(242, 246, 246);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 2%;
+  }
+  .about-section h1{
+    margin-top: 15%;
+  }
+  .div-img{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+   height:25% ;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border-radius: 8%;
+  }
+  .image-section img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+  }
+  .content{
+    width: 100vw;
+    height: 80vh;
+  }
+  .h3{
+    margin-top: 5%;
+  }
+  .h4{
+    margin-top: 12%;
+  }
+ 
+   
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+  .home{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8%;
+  }
+
+  .about-section{
+     margin-left: 4%;
+     width: 40%;
+     margin-top: 20%;
+     border: 1px solid red;
+     height: 60%;
+     text-align: center;
+ 
+  }
+  .about-section h1{
+    margin-top: 15%;
+  }
+  .image-section{
+    margin-left: 4%;
+  margin-top: 20%;
+    width: 40%;
+    display: flex;
+    height: 48%;
+    justify-content: center;
+   border: 1px solid red;
+  }
+  .image-section img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+  }
+  .content{
+    width: 100vw;
+    height: 80vh;
+  }
+}
+@media screen and (min-width: 992px) and (max-width:1200px){
+  .home{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2.5%;
+  }
+  .about-section{
+     margin-left: 4%;
+     width: 40%;
+     margin-top: 5%;
+  }
+  .image-section{
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   border: 1px solid blue;
+  }
+  .image-section img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+  }
+  .content{
+    width: 100vw;
+    height: 80vh;
+  }
+}
 
 
 
