@@ -1,6 +1,6 @@
 import React from "react";
-import resume from "../Resume/Uddeshy_Manoj_Jaiswal_Resume_11-12-2022-21-53-01.pdf"
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import resume from "../Resume/resume.pdf"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Home = ()=>{
