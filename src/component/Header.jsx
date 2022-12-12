@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "./App.css"
+// import "./App.css"
 
 AOS.init();
 export const Header = ()=>{
