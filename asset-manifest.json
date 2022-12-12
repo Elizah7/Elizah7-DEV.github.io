@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b9005fc.css",
-    "main.js": "/static/js/main.2eb24180.js",
+    "main.css": "/static/css/main.cefa76be.css",
+    "main.js": "/static/js/main.2a5322d9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/Uddeshy_Manoj_Jaiswal_Resume_11-12-2022-21-53-01.pdf": "/static/media/Uddeshy_Manoj_Jaiswal_Resume_11-12-2022-21-53-01.059a753dfd626d54973c.pdf",
     "index.html": "/index.html",
-    "main.6b9005fc.css.map": "/static/css/main.6b9005fc.css.map",
-    "main.2eb24180.js.map": "/static/js/main.2eb24180.js.map",
+    "main.cefa76be.css.map": "/static/css/main.cefa76be.css.map",
+    "main.2a5322d9.js.map": "/static/js/main.2a5322d9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b9005fc.css",
-    "static/js/main.2eb24180.js"
+    "static/css/main.cefa76be.css",
+    "static/js/main.2a5322d9.js"
   ]
 }
