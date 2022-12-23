@@ -1,0 +1,19 @@
+.logo-img{
+    width: 50%;
+   
+   height: 70%;
+  }
+  .card{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    padding: 2%;
+   
+    
+  }
+ 
+  /* .anchor{
+    display: block;
+    position: relative;
+    border:1px solid green;
+  } */

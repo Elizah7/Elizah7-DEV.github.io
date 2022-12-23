@@ -1,6 +1,6 @@
 import React from "react";
-import resume from "../Resume/resume.pdf"
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 const Home = ()=>{
@@ -11,9 +11,11 @@ const Home = ()=>{
             </div>
              <div className="about-section">
                 <h1>Hi,</h1>
-                <h1>I am Uddeshy Jaiswal A Full Stack MERN Developer </h1>
-                <p>I love to learn new technoligies and work hard, passionate about building projects and solving problems</p>
-                <a href={resume} download>Resume</a>
+                <h1>I am Uddeshy Jaiswal</h1>
+                <h1> A Full Stack MERN Developer</h1>
+                <br/>
+                <p>I love to learn new technoligies and work hard, collabrative in nature,passionate about building projects and solving problems.</p>
+               
              </div>
            
      </div>

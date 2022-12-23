@@ -4,64 +4,51 @@ import { Contect } from "../component/contact";
 import { Projects } from "../component/projects";
 import { Skills } from "../component/skills";
 import resume from "../Resume/resume.pdf"
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
-AOS.init();
 
 const NavbarLink= ()=>{
-  return <>
-   <Navbar className='navbar' fixed='top' expand="sm md lg xl xxl"  bg="dark">
-    <Container className="container">
-      <Navbar.Brand className="brand" href="#home">
-      <img data-aos="slide-right" data-aos-delay="500" src="https://t4.ftcdn.net/jpg/02/93/29/43/360_F_293294319_YPgRVpVJylQY9G55qi735ac2tEPnFlpd.jpg" className="img-fluid" alt="logo"/>
-      </Navbar.Brand>
-      <Navbar.Toggle className='coloring' aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-         <Nav className="nnn"
-              style={{ maxHeight: '100px' }} 
-              navbarScroll
-              collapseOnToggle
-                >
-          <Nav.Link className="linkk" href="#home">Home</Nav.Link>
-          
-          <Nav.Link className="linkk" href="#skills">Skills</Nav.Link>
-          <Nav.Link className="linkk" href="#projects">Projects</Nav.Link>
-          <Nav.Link className="linkk" href="#about">Contact</Nav.Link>
-        </Nav>
-        <a href={resume} download>Resume</a>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
- 
-<div className='div'>
-<div className="content content-home">
-   <a className='anchor' id="home">
-       {<Home/>}
-   </a>
-</div>
 
-<div className="content content-skills">
-   <a className='anchor'id="skills">
-       {<Skills/>}
-   </a>
-</div>
-<div className="content content-project">
-   <a className='anchor' id="projects">
-       {<Projects/>}
-   </a>
-</div>
-<div className="content contact-section">
-   <a className='anchor' id="about">
-       {<Contect/>}
-   </a>
-</div>
-</div>
-</>
+return (
+ <>
+ <div className="navbar">
+       <div className="img-div">       
+          <a href="#home">
+            <img className="logo-img" src="https://t4.ftcdn.net/jpg/02/93/29/43/360_F_293294319_YPgRVpVJylQY9G55qi735ac2tEPnFlpd.jpg" alt="logo"/>
+          </a>
+       </div>   
+          <div className="stack">
+            <a className="anchor1" href="#home">Home</a>
+            <a className="anchor2" href="#about">About</a>
+            <a className="anchor3" href="#skills">Skills</a>
+            <a className="anchor4" href="#projects">Projects</a>
+            <a className="anchor5" href={resume} download>Resume</a>
+          </div>
+ </div>
+ <div>
+  <div className="card" id="home">
+    {/* <div id="home" className="anchor"> */}
+        <Home/>
+        {/* </div> */}
+  </div>
+  <div className="card" id="about">
+    {/* <div id="about" className="anchor"> */}
+       <Skills/>
+    {/* </div> */}
+  </div>
+  <div className="card" id="skills">
+     {/* <div id="skills" className="anchor"> */}
+        <Projects/>
+     {/* </div> */}
+  </div>
+  <div className="card" id="projects">
+     {/* <div id="projects" className="anchor"> */}
+        <Contect/>
+     {/* </div> */}
+  </div>
+ </div>
+ </>
+   
+);
 }
 export {NavbarLink}
