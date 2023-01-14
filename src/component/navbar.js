@@ -37,8 +37,8 @@ return (
             <a className="anchor5" href={resume} download>Resume</a>
           </div>
           <div className="hc">
-            <GiHamburgerMenu size="10%" color="white" onClick={handleToggle} className="hamburger" id={state ? "hamburger2" :"hamburger3"}/>
-            <RxCross2 onClick={handleCancel} className="cancel" id={state ? "cancel3" : "cancel2"} color="white" size="10%"/>
+            <GiHamburgerMenu  color="white" onClick={handleToggle} className="hamburger" id={state ? "hamburger2" :"hamburger3"}/>
+            <RxCross2 onClick={handleCancel} className="cancel" id={state ? "cancel3" : "cancel2"} color="white" />
             </div>
  </div>
  <div>
