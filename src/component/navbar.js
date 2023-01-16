@@ -20,7 +20,9 @@ const [state,setState] = useState(true)
    let handleCancel = ()=>{
        setState(true)
    }
-
+ let handleClick = ()=>{
+      setState(true)
+ }
 return (
  <>
  <div className="navbar">
@@ -30,10 +32,10 @@ return (
           </a>
        </div>   
           <div className="stack" id={state ? "stack3" : "stack2"}>
-            <a className="anchor1" href="#home">Home</a>
-            <a className="anchor2" href="#about">About</a>
-            <a className="anchor3" href="#skills">Skills</a>
-            <a className="anchor4" href="#projects">Projects</a>
+            <a className="anchor1" href="#home" onClick={handleClick}>Home</a>
+            <a className="anchor2" href="#about" onClick={handleClick}>Skills</a>
+            <a className="anchor3" href="#skills" onClick={handleClick}>Projects</a>
+            <a className="anchor4" href="#projects" onClick={handleClick}>Contacts</a>
             <a className="anchor5" href={resume} download>Resume</a>
           </div>
           <div className="hc">

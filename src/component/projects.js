@@ -3,7 +3,7 @@ import React from "react";
 import GitHubCalendar from 'react-github-calendar';
 import ReactTooltip  from "react-tooltip"
 const Projects = ()=>{
-  const selectLastHalfYear = contributions => {
+  const selectLastEightMonths = contributions => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
     const shownMonths = 10;
@@ -76,8 +76,8 @@ const Projects = ()=>{
             <h3>Github Stats</h3>
           
            <div className="github">
-            <GitHubCalendar  blockSize={15} username="Elizah7" transformData={selectLastHalfYear}>
-              <ReactTooltip delayShow={20} html/>
+            <GitHubCalendar  blockSize={15} username="Elizah7" transformData={selectLastEightMonths} className="githubcal">
+              <ReactTooltip className="react-tool"  delayShow={20} html />
             </GitHubCalendar>
           
            </div>
