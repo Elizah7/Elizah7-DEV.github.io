@@ -2,10 +2,12 @@ import React from "react";
 
 import GitHubCalendar from 'react-github-calendar';
 import ReactTooltip  from "react-tooltip"
+import Calender from "./Calender";
+
 const Projects = ()=>{
   const selectLastEightMonths = contributions => {
-    const currentYear = new Date().getFullYear();
-    const currentMonth = new Date().getMonth();
+    const currentYear = new Date().getFullYear(2022);
+    const currentMonth = new Date().getMonth('December');
     const shownMonths = 10;
   
     return contributions.filter(day => {
@@ -74,23 +76,12 @@ const Projects = ()=>{
               
            </div>
            <div className="github-section">
+            <Calender/>
+            </div>
       
-            <h3>Github Stats</h3>
-          
-           <div className="github">
-            <GitHubCalendar  blockSize={15} username="Elizah7" transformData={selectLastEightMonths} className="githubcal">
-              <ReactTooltip className="react-tool"  delayShow={20} html />
-            </GitHubCalendar>
-          
-           </div>
-           <div className="github-stats">
-              <a href="https://github.com/Elizah7">
-                <img src="https://github-readme-streak-stats.herokuapp.com?user=Elizah7&theme=dark" alt="img-github"/>
-              </a>
-            </div>
-            </div>
         </>
     )
+
 
 }
 export {Projects}
