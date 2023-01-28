@@ -77,7 +77,7 @@
    /* text-align: center; */
    display: flex;
    /* align-items: center; */
-
+ animation: slide-left  1s;
  }
 
  .logo-img {
@@ -105,7 +105,7 @@
    text-shadow: 2px 2px 8px #f3f1f1;
    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
    display: flex;
-   background-color: teal;
+   background-color: rgb(1, 164, 164);
    font-size: 100%;
    text-decoration: none;
    align-items: center;
@@ -150,30 +150,35 @@
    /* border: 1px solid red; */
 
  }
-.calanderBox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.statBox-dark{
 
-  font-size: 90%;
-  height: 50%;
-  margin-top: 5%;
-  text-align: center;
-}
-.statbox1-dark{
-  height: 20%;
-  font-size: 90%;
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.statbox1-dark img{
- width: 90%;
+ .calanderBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
 
-}
+ .statBox-dark {
+
+   font-size: 90%;
+   height: 50%;
+   margin-top: 5%;
+   text-align: center;
+ }
+
+ .statbox1-dark {
+   height: 20%;
+   font-size: 90%;
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .statbox1-dark img {
+   width: 90%;
+
+ }
+
  .section {
    display: block;
    position: relative;
@@ -211,7 +216,7 @@
  .about-section {
    /* border: 1px solid red; */
    width: 40%;
-   animation: slide-right 1.5s;
+
    color: rgb(254, 250, 250);
    text-shadow: 2px 2px 8px #f3f1f1;
  }
@@ -243,7 +248,7 @@
    row-gap: 2%;
    padding: 5%;
    /* margin-top: 3%; */
-   animation: slide-up 1s;
+
  }
 
  .skills div {
@@ -302,8 +307,8 @@
  .projects-container {
    width: 100%;
    display: flex;
-   justify-content: space-between; 
-    align-items: center;
+   justify-content: space-between;
+   align-items: center;
 
  }
 
@@ -315,40 +320,51 @@
    font-size: 80%;
    box-shadow: #32325d40 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  }
-
+.project-div div{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+.project-div div h4{
+  width: 20%;
+ background-color: teal;
+}
  .project-div img {
    width: 100%;
 
  }
- .project-div .live-button{
-  width: 100%;
-   color:  white;
+
+ .project-div .live-button {
+   width: 100%;
+   color: white;
    height: 40px;
    /* border: 1px solid red; */
    display: flex;
-  justify-content: space-around;
-  align-items: center;
+   justify-content: space-around;
+   align-items: center;
  }
- .live-button a{
-  background-color: teal;
-  display: inline-block;
+
+ .live-button a {
+   background-color: teal;
+   display: inline-block;
    text-decoration: none;
    width: 30%;
    height: 100%;
    text-decoration: none;
-   color:white;
+   color: white;
    align-items: center;
    display: flex;
    justify-content: center;
  }
- .live-button a:hover{
-  background-color: white;
-  display: inline-block;
+
+ .live-button a:hover {
+   background-color: white;
+   display: inline-block;
    text-decoration: none;
    width: 30%;
    height: 100%;
    text-decoration: none;
-   color:black;
+   color: black;
    align-items: center;
    display: flex;
    justify-content: center;
@@ -463,7 +479,7 @@
    }
  }
 
- @keyframes slide-up {
+ /* @keyframes slide-up {
    0% {
      transform: translateY(100%);
    }
@@ -471,7 +487,7 @@
    100% {
      transform: translateY(0%);
    }
- }
+ } */
 
  @keyframes bounce-up {
    0% {
@@ -491,7 +507,7 @@
    }
  }
 
- @keyframes rotate-left {
+ /* @keyframes rotate-left {
    0% {
      transform: rotateX('angle', 0)
    }
@@ -499,13 +515,13 @@
    100% {
      transform: rotateX('angle', 360)
    }
- }
+ } */
 
 
 
 
  @media screen and (min-width: 360px) and (max-width:576px) {
- 
+
 
    .img-div {
      width: 15%;
@@ -608,8 +624,9 @@
      margin: auto;
      font-size: 80%;
    }
-   .about-section p{
-    font-size: 120%;
+
+   .about-section p {
+     font-size: 120%;
    }
 
    .skills-section {
@@ -647,10 +664,11 @@
      /* border: 1px solid red; */
    }
 
-.project-div p{
-  /* border: 1px solid red; */
-  padding: 2%;
-}
+   .project-div p {
+     /* border: 1px solid red; */
+     padding: 2%;
+   }
+
    .github-section {
      margin-top: 24%;
      /* border: 1px solid green; */
@@ -668,9 +686,9 @@
      width: 95%;
    }
 
-  
 
-   
+
+
    .github-stats {
      /* border: 1px solid purple; */
      width: 95%;
@@ -695,318 +713,323 @@
  }
 
  @media screen and (min-width: 576px) and (max-width:768px) {
-  .img-div {
-    width: 15%;
-    /* border: 1px solid red; */
-  }
+   .img-div {
+     width: 15%;
+     /* border: 1px solid red; */
+   }
 
-  .hc {
-    display: flex;
-    width: 10%;
-    /* border: 1px solid red; */
-    height: 100%;
-  }
+   .hc {
+     display: flex;
+     width: 10%;
+     /* border: 1px solid red; */
+     height: 100%;
+   }
 
-  .stack {
-    display: none;
+   .stack {
+     display: none;
 
-  }
+   }
 
-  #cancel3 {
-    display: none;
-  }
+   #cancel3 {
+     display: none;
+   }
 
-  .hamburger {
-    display: flex;
-    /* border: 1px solid red; */
-    width: 100%;
-  }
+   .hamburger {
+     display: flex;
+     /* border: 1px solid red; */
+     width: 100%;
+   }
 
-  #hamburger2 {
-    display: flex;
-    width: 100%;
-  }
+   #hamburger2 {
+     display: flex;
+     width: 100%;
+   }
 
-  #hamburger3 {
-    display: none;
-  }
+   #hamburger3 {
+     display: none;
+   }
 
-  #cancel2 {
-    display: flex;
-    width: 100%;
-    /* margin-left: 60%; */
-    color: #fff;
-    height: 100%;
-    /* border: 1px solid red; */
-  }
+   #cancel2 {
+     display: flex;
+     width: 100%;
+     /* margin-left: 60%; */
+     color: #fff;
+     height: 100%;
+     /* border: 1px solid red; */
+   }
 
-  #stack2 {
-    display: flex;
-    position: sticky;
-    position: absolute;
-    height: 200px;
-    width: 95%;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* border: 1px solid red; */
-    top: 100%;
-    /* margin-top: 180px; */
-    /* margin-left:70% ; */
-    /* left: 70%; */
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-    row-gap: 5%;
-    background-color: black;
-    text-decoration: none;
+   #stack2 {
+     display: flex;
+     position: sticky;
+     position: absolute;
+     height: 200px;
+     width: 95%;
+     padding-left: 20px;
+     padding-right: 20px;
+     /* border: 1px solid red; */
+     top: 100%;
+     /* margin-top: 180px; */
+     /* margin-left:70% ; */
+     /* left: 70%; */
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     z-index: 999;
+     row-gap: 5%;
+     background-color: black;
+     text-decoration: none;
 
-  }
+   }
 
-  #stack2>a {
-    /* color: white; */
-    text-shadow: 2px 2px 8px #f3f1f1;
-    display: flex;
-    font-size: 100%;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    height: 20%;
-    margin: auto;
-  }
+   #stack2>a {
+     /* color: white; */
+     text-shadow: 2px 2px 8px #f3f1f1;
+     display: flex;
+     font-size: 100%;
+     text-decoration: none;
+     align-items: center;
+     justify-content: center;
+     width: 20%;
+     height: 20%;
+     margin: auto;
+   }
 
-  .navbar {
-    height: 10vh;
-    /* border: 1px solid red; */
-  }
+   .navbar {
+     height: 10vh;
+     /* border: 1px solid red; */
+   }
 
-  .home {
-    display: block;
-    width: 95%;
-  }
+   .home {
+     display: block;
+     width: 95%;
+   }
 
-  .image-section {
-    width: 80%;
-    margin: auto;
-  }
+   .image-section {
+     width: 80%;
+     margin: auto;
+   }
 
-  .about-section {
-    width: 95%;
-    margin: auto;
-    font-size: 80%;
-  }
-  .about-section p{
-   font-size: 120%;
-  }
+   .about-section {
+     width: 95%;
+     margin: auto;
+     font-size: 80%;
+   }
 
-  .skills-section {
-    /* border: 1px solid red; */
-    width: 95%;
-  }
+   .about-section p {
+     font-size: 120%;
+   }
 
-  .skills {
-    /* border: 1px solid red; */
-    width: 90%;
-  }
+   .skills-section {
+     /* border: 1px solid red; */
+     width: 95%;
+   }
 
-  .skills>div {
-    width: 30%;
-    align-items: center;
-    height: 30%;
-    gap: 1%;
-  }
+   .skills {
+     /* border: 1px solid red; */
+     width: 90%;
+   }
 
-  .projects-section {
-    width: 95%;
-  }
+   .skills>div {
+     width: 30%;
+     align-items: center;
+     height: 30%;
+     gap: 1%;
+   }
 
-  .projects-container {
-    /* border: 1px solid red; */
-    display: block;
+   .projects-section {
+     width: 95%;
+   }
 
-  }
+   .projects-container {
+     /* border: 1px solid red; */
+     display: block;
 
-  .project-div {
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    padding: 2%;
-    /* border: 1px solid red; */
-  }
+   }
 
-.project-div p{
- /* border: 1px solid red; */
- padding: 2%;
-}
-  .github-section {
-    margin-top: 24%;
-    /* border: 1px solid green; */
-    text-align: center;
-    width: 95%;
-  }
+   .project-div {
+     width: 90%;
+     margin: auto;
+     margin-top: 5%;
+     padding: 2%;
+     /* border: 1px solid red; */
+   }
 
-  .github {
-    /* border: 1px solid blue; */
+   .project-div p {
+     /* border: 1px solid red; */
+     padding: 2%;
+   }
+
+   .github-section {
+     margin-top: 24%;
+     /* border: 1px solid green; */
+     text-align: center;
+     width: 95%;
+   }
+
+   .github {
+     /* border: 1px solid blue; */
 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 95%;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 95%;
+   }
 
- 
 
-  
-  .github-stats {
-    /* border: 1px solid purple; */
-    width: 95%;
-    margin: auto;
-  }
 
-  .github-stats img {
-    width: 100%;
 
-  }
+   .github-stats {
+     /* border: 1px solid purple; */
+     width: 95%;
+     margin: auto;
+   }
 
-  .contact-section {
-    /* border: 1px solid red; */
-    height: 50vh;
-  }
+   .github-stats img {
+     width: 100%;
 
-  .contact-child {
-    /* border: 1px solid green; */
-    height: 60%;
-    width: 100%;
-  }
+   }
+
+   .contact-section {
+     /* border: 1px solid red; */
+     height: 50vh;
+   }
+
+   .contact-child {
+     /* border: 1px solid green; */
+     height: 60%;
+     width: 100%;
+   }
  }
 
  @media screen and (min-width: 768px) and (max-width:992px) {
-  .img-div {
-    width: 10%;
-    /* border: 1px solid red; */
-  }
+   .img-div {
+     width: 10%;
+     /* border: 1px solid red; */
+   }
 
-  .stack a {
-    color: white;
-    background-color: teal;
-   height: 50%;
-  }
-  .stack a:hover {
-    color: black;
-   background-color: white;
-   height: 50%;
-  }
+   .stack a {
+     color: white;
+     background-color: teal;
+     height: 50%;
+   }
 
-  .navbar {
-    height: 8vh;
-    /* border: 1px solid red; */
-  }
-  .stack{
-    width: 50%;
-  }
+   .stack a:hover {
+     color: black;
+     background-color: white;
+     height: 50%;
+   }
 
-  .home {
-    display: flex;
-    width: 95%;
-  }
+   .navbar {
+     height: 8vh;
+     /* border: 1px solid red; */
+   }
 
-  .image-section {
-    width: 45%;
-    margin: auto;
-  }
+   .stack {
+     width: 50%;
+   }
 
-  .about-section {
-    width: 45%;
-    margin: auto;
-    font-size: 80%;
-  }
-  .about-section p{
-   font-size: 120%;
-  }
+   .home {
+     display: flex;
+     width: 95%;
+   }
 
-  .skills-section {
-    /* border: 1px solid red; */
-    width: 95%;
-  }
+   .image-section {
+     width: 45%;
+     margin: auto;
+   }
 
-  .skills {
-    /* border: 1px solid red; */
-    width: 90%;
-  }
+   .about-section {
+     width: 45%;
+     margin: auto;
+     font-size: 80%;
+   }
 
-  .skills>div {
-    width: 30%;
-    align-items: center;
-    height: 30%;
-    gap: 1%;
-  }
+   .about-section p {
+     font-size: 120%;
+   }
 
-  .projects-section {
-    width: 95%;
-  }
+   .skills-section {
+     /* border: 1px solid red; */
+     width: 95%;
+   }
 
-  .projects-container {
-    /* border: 1px solid red; */
-    display:flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
-    row-gap: 1%;
-    /* display: grid;
+   .skills {
+     /* border: 1px solid red; */
+     width: 90%;
+   }
+
+   .skills>div {
+     width: 30%;
+     align-items: center;
+     height: 30%;
+     gap: 1%;
+   }
+
+   .projects-section {
+     width: 95%;
+   }
+
+   .projects-container {
+     /* border: 1px solid red; */
+     display: flex;
+     /* flex-direction: row; */
+     flex-wrap: wrap;
+     row-gap: 1%;
+     /* display: grid;
     grid-template-columns: repeat(2,1fr); */
-   /* gap: 2%; */
-  }
+     /* gap: 2%; */
+   }
 
-.project-div{
-  /* border: 1px solid red; */
-  width: 45%;
-}
+   .project-div {
+     /* border: 1px solid red; */
+     width: 45%;
+   }
 
-.project-div p{
- /* border: 1px solid red; */
- padding: 2%;
-}
-  .github-section {
-    margin-top: 24%;
-    /* border: 1px solid green; */
-    text-align: center;
-    width: 80%;
-  }
+   .project-div p {
+     /* border: 1px solid red; */
+     padding: 2%;
+   }
 
-  .github {
-    /* border: 1px solid blue; */
+   .github-section {
+     margin-top: 24%;
+     /* border: 1px solid green; */
+     text-align: center;
+     width: 80%;
+   }
+
+   .github {
+     /* border: 1px solid blue; */
 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+   }
 
- 
 
-  
-  .github-stats {
-    /* border: 1px solid purple; */
-    width: 60%;
-    margin: auto;
-  }
 
-  .github-stats img {
-    width: 100%;
 
-  }
+   .github-stats {
+     /* border: 1px solid purple; */
+     width: 60%;
+     margin: auto;
+   }
 
-  .contact-section {
-    /* border: 1px solid red; */
-    height: 50vh;
-  }
+   .github-stats img {
+     width: 100%;
 
-  .contact-child {
-    /* border: 1px solid green; */
-    height: 60%;
-    width: 100%;
-  }
+   }
+
+   .contact-section {
+     /* border: 1px solid red; */
+     height: 50vh;
+   }
+
+   .contact-child {
+     /* border: 1px solid green; */
+     height: 60%;
+     width: 100%;
+   }
  }
-

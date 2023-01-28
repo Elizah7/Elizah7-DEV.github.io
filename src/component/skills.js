@@ -6,11 +6,13 @@ import {DiCss3} from "react-icons/di"
 import {DiJavascript1} from "react-icons/di"
 import {SiChakraui} from "react-icons/si"
 import {SiTypescript} from "react-icons/si"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const  Skills = ()=> {
     return (
       <>
      
-      <div className="skills-section section">
+      <div className="skills-section section" data-aos="slide-up" data-aos-duration="20000">
       <h1 className="h2">Skills</h1>
         <div className="skills">
         <div className="div-img">
@@ -43,5 +45,5 @@ const  Skills = ()=> {
       </>
     );
   }
-  
+  AOS.init()
   export { Skills}
