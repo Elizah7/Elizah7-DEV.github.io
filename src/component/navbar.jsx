@@ -1,8 +1,8 @@
 
-import { Home } from "../component/home";
-import { Contect } from "../component/contact";
-import { Projects } from "../component/projects";
-import { Skills } from "../component/skills";
+import { Home } from "./home";
+import { Contect } from "./contact";
+import { Projects } from "./projects";
+import { Skills } from "./skills";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {RxCross2} from "react-icons/rx"
 import resume from "../Resume/resume.pdf"
@@ -36,7 +36,7 @@ return (
             <a className="anchor2" href="#about" onClick={handleClick}>Skills</a>
             <a className="anchor3" href="#skills" onClick={handleClick}>Projects</a>
             <a className="anchor4" href="#projects" onClick={handleClick}>Contacts</a>
-            <a className="anchor5" href={resume} download>Resume</a>
+            <a className="anchor5" href={resume}  download target="_blank">Resume</a>
           </div>
           <div className="hc">
             <GiHamburgerMenu  color="white" onClick={handleToggle} className="hamburger" id={state ? "hamburger2" :"hamburger3"}/>
