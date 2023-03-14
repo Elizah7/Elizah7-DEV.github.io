@@ -15,38 +15,38 @@ const Skills = () => {
 
       <Box className="section" textAlign="center" paddingTop={["15%","15%","12%","3%"]} >
       <Heading as="h1" fontSize={["xl","xl","2xl","4xl"]}>Skills</Heading>
-        <SimpleGrid columns={["3","3","4","5"]} alignItems="center" justifyContent="center" gap="4%" className="skills" width={["100%","90%","80%","80%"]} margin="auto" height={{base:"500px",md:"460px"}}>
+        <SimpleGrid columns={["3","3","4","5"]} alignItems="center" justifyContent="center" gap="4%" className="skills" width={["100%","90%","80%","80%"]} margin="auto" height={{base:"500px",md:"460px"}} data-aos="fade-up">
           <Flex>
-            <FaHtml5 size="50%" className="img" color="black"/>
+            <FaHtml5  className="img" color="black"/>
             {/* <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"/> */}
             <h4>HTML</h4>
           </Flex >
           <Flex >
-            <DiCss3 size="50%" className="img" color="black" />
+            <DiCss3  className="img" color="black" />
             <h4>CSS</h4>
           </Flex>
           <Flex >
-            <DiJavascript1 size="50%" className="img" color="black" />
+            <DiJavascript1 className="img" color="black" />
             <h4>Java-Script</h4>
           </Flex>
           <Flex >
-            <SiChakraui className="img" size="50%" color="black" />
+            <SiChakraui className="img"  color="black" />
             <h4>Chakra-UI</h4>
           </Flex>
           <Flex >
-            <FaReact className="img" size="50%" color="black" />
+            <FaReact className="img" color="black" />
             <h4>React</h4>
           </Flex>
           <Flex  >
-            <SiRedux size="50%" className="img" color="black" />
+            <SiRedux  className="img" color="black" />
             <h4>Redux</h4>
           </Flex>
           <Flex >
-            <FaNodeJs size="50%" className="img" color="black" />
+            <FaNodeJs className="img" color="black" />
             <h4>NodeJs</h4>
           </Flex>
           <Flex >
-            <SiMongodb size="50%" className="img" color="black" />
+            <SiMongodb  className="img" color="black" />
             <h4>MongoDb</h4>
           </Flex>
         </SimpleGrid>

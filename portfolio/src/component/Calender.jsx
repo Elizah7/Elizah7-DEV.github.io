@@ -8,7 +8,7 @@ const Calender = () => {
     <div className='calender-dark'>
         <Box paddingBottom="0px" pt='20px' >
         <Heading as="h1" fontSize={["xl","xl","2xl","4xl"]}>Calendar & Stats</Heading>
-      <Text className='statHeading' pb="25px" >Check out my Github Calendar & Streak Stats</Text>
+      <Text className='statHeading' pb="25px" marginTop="20px">Check out my Github Calendar & Streak Stats</Text>
       </Box>
       <Box style={{textAlign:'center'}} className='calanderBox' data-aos="fade-up">
       <GitHubCalendar username="Elizah7" >
