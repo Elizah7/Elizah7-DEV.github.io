@@ -129,12 +129,6 @@ html {
   margin: auto; 
 }
 
-/* .about-section {
-  padding-left: 5%;
-  padding-right: 5%;
-  color: rgb(254, 250, 250);
-  text-shadow: 2px 2px 8px #f3f1f1;
-} */
 
 h1 {
   font-family: verdana;
@@ -179,8 +173,7 @@ h1 {
 .skills div h4 {
   width: 90%;
   margin: auto;
-  color: white;
-
+  color: rgb(10, 10, 10);
 }
 
 .projects-section {
@@ -233,7 +226,8 @@ h1 {
 }
 
 .textl h4 {
-  width: 20%;
+  text-align: center;
+  width: 24%;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -254,7 +248,7 @@ h1 {
   width: 30%;
   height: 100%;
   text-decoration: none;
-  color: white;
+  color: rgb(6, 6, 6);
   align-items: center;
   display: flex;
   justify-content: center;
@@ -274,8 +268,6 @@ h1 {
   margin: auto;
   margin-top: 12%;
   text-align: center;
-
-
 }
 
 .github-section h3 {
@@ -288,7 +280,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: auto;
   margin-top: 6%;
 }
@@ -315,8 +306,6 @@ h1 {
 }
 
 .contact-child div {
-  width: 20%;
-  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;

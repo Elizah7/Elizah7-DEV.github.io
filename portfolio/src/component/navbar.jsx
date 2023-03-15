@@ -18,7 +18,7 @@ const NavbarLink = () => {
     
       return (
             <>
-                  <Flex width={["100%", "100%", "100%", "100%"]} height={["10%","10%","10%","15%"]} className="navbar" justifyContent="space-between" alignItems="center" >
+                  <Flex width={["100%", "100%", "100%", "100%"]} height={["10%","10%","10%","15%"]} className="navbar" justifyContent="space-between" alignItems="center" id="nav-menu">
                         <Box className="img-div" width={["18%","13%","12%","5%"]}>
                               <a href="#home">
                                     <Image className="logo-img" src="https://t4.ftcdn.net/jpg/02/93/29/43/360_F_293294319_YPgRVpVJylQY9G55qi735ac2tEPnFlpd.jpg" alt="logo" />

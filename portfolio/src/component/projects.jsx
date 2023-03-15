@@ -38,8 +38,8 @@ const Projects = () => {
   return (
     <>
 
-      <Box className="projects-section section" paddingTop={["15%", "15%", "12%", "3%"]} fontSize={["xm","sm","md","l"]}>
-        <Heading as="h1" fontSize={["xl","xl","2xl","4xl"]}>My Projects</Heading>
+      <Box className="projects-section section nav-link projects" paddingTop={["15%", "15%", "12%", "3%"]} fontSize={["xm","sm","md","l"]}>
+        <Heading as="h1" fontSize={["3xl","3xl","4xl","4xl"]}>My Projects</Heading>
         <Box className="projects-container">
           <Box data-aos="fade-up" display={{ base: "block", sm: "block", md: "flex" }} className="project-div" height={["550px", "460px", "430px", "450px"]} width={["100%","100%","95%","95%"]}>
             <Box className="slide-container" width={["100%", "100%", "50%", "50%"]} height={["220px","220px","405px","417px"]}>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <p>This is clone of AppleTv+ which is a straming platform where we can watch web-shows and movies it was a group project in which we were five teammembers I created the authentication for the application like login page signup page</p>
               </Box>
               <Box marginTop={["10px","10px","15px","50px"]} >
-              <h2>Tech Stack</h2>
+              <h2>Tech Stack :</h2>
               <Box  marginTop={["10px","10px","50px","50px"]}>
                 <h4>React</h4>
                 <h4>Chakra-Ui</h4>
@@ -93,7 +93,7 @@ const Projects = () => {
                 <p>This is an clone of E-Commerse website Myntra, this was a group project we were five team members, my part was to build the authentication and the admin side </p>
               </Box>
               <Box marginTop={["10px","10px","15px","50px"]} >
-              <h2>Tech Stack</h2>
+              <h2>Tech Stack :</h2>
               <Box marginTop={["10px","10px","15px","50px"]} >
                 <h4>React</h4>
                 <h4>Chakra-Ui</h4>
@@ -126,7 +126,7 @@ const Projects = () => {
                 <p>This is clone of Industry Bying website which sells mechanical tools and industry releated things this was a group project we were five team members and we completed this within four days my part was to build the admin side</p>
               </Box>
               <Box marginTop={["10px","10px","15px","50px"]} >
-              <h2>Tech Stack</h2>
+              <h2>Tech Stack :</h2>
               <Box  marginTop={["10px","10px","15px","50px"]} >
                 <h4>React</h4>
                 <h4>Chakra-Ui</h4>
@@ -134,6 +134,7 @@ const Projects = () => {
                 <h4>Redux</h4>
               </Box>
               </Box>
+
               <Box className="live-button"  marginTop={["10px","10px","15px","60px"]} >
                 <a href="https://github.com/Prashant1562/IndustryBuying-Clone">Github</a>
                 <a href="https://soft-dogs-2567.netlify.app/">Live server</a>
