@@ -7,8 +7,8 @@ html {
 
 }
 
-.App{
-  background-color: rgb(142, 141, 141);
+.App {
+  background-color: rgb(194, 189, 189);
   font-family: 'Open Sans';
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -17,12 +17,12 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: hidden;
-  
+
 }
 
-
 .navbar {
-  background-color: rgb(142, 141, 141);
+  /* background-color: rgb(142, 141, 141); */
+  background-color: rgb(194, 189, 189);
   position: fixed;
   top: 0;
   left: 0;
@@ -30,13 +30,13 @@ html {
   z-index: 999;
   overflow: hidden;
 }
+
 .img-div {
   /* background-color: rgb(17, 17, 17); */
   width: 5%;
   /* height: 100%; */
   margin-left: 3%;
   border-radius: 50%;
-
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
   /* align-items: center; */
@@ -57,16 +57,12 @@ html {
 }
 
 .stack>a {
-  color:#f5f5f5;
   /* text-shadow: 2px 2px 8px #f3f1f1; */
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   display: flex;
-
-
   text-decoration: none;
   align-items: center;
   justify-content: center;
-
   height: 100%;
 }
 
@@ -104,85 +100,68 @@ html {
 
 
 .calanderBox {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .statBox-dark {
- width: 50%;
+  width: 50%;
   font-size: 90%;
   height: 50%;
   margin: auto;
   margin-top: 5%;
   text-align: center;
-}
-
-
-.section {
-  display: block;
-  color:#f5f5f5;
-  padding-top: 5%;
-}
-
-.home {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
- padding-top: 2%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .image-section {
-  background-color: gray;
-  border-radius: 50%;
+  background-color: rgb(194, 189, 189);
   animation: slide-left 1.5s;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .image-section img {
-  background-color: gray;
+  background-color: rgb(194, 189, 189);
   width: 100%;
-  margin: auto;
-  border-radius: 50%;
+  margin: auto; 
 }
 
-.about-section {
-  width: 40%;
+/* .about-section {
+  padding-left: 5%;
+  padding-right: 5%;
   color: rgb(254, 250, 250);
   text-shadow: 2px 2px 8px #f3f1f1;
-}
+} */
 
- h1{
-
- color: #f5f5f5;
- font-family: verdana;
- text-transform: uppercase;
- text-shadow: 1px 1px 1px #919191,
- 1px 2px 1px #919191,
- 1px 3px 1px #919191,
- 1px 4px 1px #919191,
- 1px 5px 1px #919191,
- 1px 6px 1px #919191,
- 1px 7px 1px #919191,
- 1px 8px 1px #919191,
- 1px 9px 1px #919191,
- 1px 10px 1px #919191,
-1px 18px 6px rgba(16,16,16,0.4),
-1px 22px 10px rgba(16,16,16,0.2),
-1px 25px 35px rgba(16,16,16,0.2),
-1px 30px 60px rgba(16,16,16,0.4);
+h1 {
+  font-family: verdana;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
 .skills div {
-
-  background-color: rgb(142, 141, 141);
+  background-color: rgb(194, 189, 189);
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   flex-direction: column;
   align-items: center;
- justify-content: center;
+  justify-content: center;
   transition: 0.5s;
 }
 
@@ -205,38 +184,58 @@ html {
 }
 
 .projects-section {
-
   text-align: center;
-
   width: 100%;
 }
 
 .projects-container {
   width: 100%;
 }
-.slide-container{
+
+.slide-container {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 .project-div {
   animation: slide-up 1s;
   width: 95%;
-  background-color: rgb(142, 141, 141);
+  background-color: rgb(194, 189, 189);
   padding: 1%;
   display: flex;
   justify-content: space-between;
-
   margin: auto;
   margin-top: 3%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.textl h2{
+
+.textl h2 {
   font-size: 150%;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
 }
+
 .textl div:nth-child(2) {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
 
+.textl h4 {
+  width: 20%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .project-div .live-button {
@@ -249,7 +248,7 @@ html {
 }
 
 .live-button a {
-  background-color: gray;
+  background-color: rgb(194, 189, 189);
   display: inline-block;
   text-decoration: none;
   width: 30%;
@@ -265,15 +264,9 @@ html {
 
 .live-button a:hover {
   background-color: white;
-  display: inline-block;
-  text-decoration: none;
-  width: 30%;
-  height: 100%;
   text-decoration: none;
   color: black;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+
 }
 
 .github-section {
@@ -281,13 +274,12 @@ html {
   margin: auto;
   margin-top: 12%;
   text-align: center;
-  color: white;
+
 
 }
 
 .github-section h3 {
   width: 15%;
-  /* border: 1px solid rgb(95, 91, 91); */
   margin: auto;
 }
 
@@ -296,7 +288,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid rgb(95, 91, 91); */
+
   margin: auto;
   margin-top: 6%;
 }
@@ -319,24 +311,20 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
   margin: auto;
 }
 
 .contact-child div {
   width: 20%;
-
   height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   text-decoration: none;
-
 }
 
 .contact-child div a {
-  background-color: rgb(142, 141, 141);
+  background-color: rgb(194, 189, 189);
   width: 100%;
   height: 80%;
   text-decoration: none;
@@ -347,7 +335,6 @@ html {
 
 .contact-child div a div:hover {
   background-color: #fff;
-
   box-shadow: 10px 10px 10px 10px rgb(158, 150, 150);
 }
 
@@ -358,6 +345,19 @@ html {
   justify-content: center;
   align-items: center;
   /* border-radius: 45%; */
+}
+
+.left a {
+  width: 100%;
+  color: #f5f5f5;
+  /* text-shadow: 2px 2px 8px #f3f1f1; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  height: 100%;
+  padding: 4%;
 }
 
 @keyframes slide-left {
@@ -397,4 +397,3 @@ html {
     transform: translateY(0%);
   }
 }
-

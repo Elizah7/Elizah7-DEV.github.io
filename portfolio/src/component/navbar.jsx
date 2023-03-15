@@ -1,5 +1,5 @@
 
-import { Home } from "./home";
+import { About } from "./about";
 import { Contect } from "./contact";
 import { Projects } from "./projects";
 import { Skills } from "./skills";
@@ -7,16 +7,15 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx"
 import resume from "../Resume/resume.pdf"
 import { useRef, useState } from "react";
-import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, HStack, Image, Input, Stack, useDisclosure,Link } from "@chakra-ui/react";
+import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, HStack, Image, Input, Stack, useDisclosure,Link, Heading } from "@chakra-ui/react";
 import HamMenu from "./drawer"
+import { Home } from "./home";
 
 
 const NavbarLink = () => {
       const { isOpen, onOpen, onClose } = useDisclosure()
       const btnRef = useRef()
-      let handleClick = () => {
-            isOpen()
-      }
+    
       return (
             <>
                   <Flex width={["100%", "100%", "100%", "100%"]} height={["10%","10%","10%","15%"]} className="navbar" justifyContent="space-between" alignItems="center" >
@@ -27,32 +26,35 @@ const NavbarLink = () => {
                         </Box>
 
                         <HStack height="50%" width={["0","0","60%","50%"]} display={{ base: "none", md: "flex" }} className="stack" paddingRight="1%">
-                              <Link width={["0","0","16%","15%"]} className="anchor1" href="#home" onClick={handleClick}>Home</Link>
-                              <Link  width={["0","0","16%","15%"]} className="anchor1" href="#about" onClick={handleClick}>About</Link>
-                              <Link  width={["0","0","16%","15%"]} className="anchor2" href="#about" onClick={handleClick}>Skills</Link>
-                              <Link  width={["0","0","16%","15%"]} className="anchor3" href="#skills" onClick={handleClick}>Projects</Link>
-                              <Link  width={["0","0","16%","15%"]} className="anchor4" href="#projects" onClick={handleClick}>Contacts</Link>
+                              <Link width={["0","0","16%","15%"]} className="anchor1" href="#home">Home</Link>
+                              <Link  width={["0","0","16%","15%"]} className="anchor1" href="#about">About</Link>
+                              <Link  width={["0","0","16%","15%"]} className="anchor2" href="#skills">Skills</Link>
+                              <Link  width={["0","0","16%","15%"]} className="anchor3" href="#projects">Projects</Link>
+                              <Link  width={["0","0","16%","15%"]} className="anchor4" href="#contact">Contacts</Link>
                               <Link  width={["0","0","16%","15%"]} className="anchor5" href={resume} download target="_blank">Resume</Link>
                         </HStack>
-                        <Flex display={{base:"flex",md:"none"}}>
-                              <HamMenu handleClick={handleClick}/>
+                        <Flex display={{base:"flex",md:"none"}} paddingRight="3%">
+                              <HamMenu />
                         </Flex>
 
                   </Flex>
                   <div>
                         <div className="card" id="home">
-
-                              <Home />
-
+                              <Home/>
                         </div>
                         <div className="card" id="about">
 
-                              <Skills />
+                              <About />
+
                         </div>
                         <div className="card" id="skills">
-                              <Projects />
+
+                              <Skills />
                         </div>
                         <div className="card" id="projects">
+                              <Projects />
+                        </div>
+                        <div className="card" id="contact">
                               <Contect />
                         </div>
                   </div>

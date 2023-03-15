@@ -56,16 +56,16 @@ const Projects = () => {
             </Box>
             <Box  className="textl" width={["100%","100%","50%","50%"]} textAlign={["left","left","center","center"]}>
               <h2>Name: DevTv+</h2>
-              <Box marginTop={["10px","10px","15px","50px"]} border="1px solid red">
+              <Box marginTop={["10px","10px","15px","50px"]} >
                 <p>This is clone of AppleTv+ which is a straming platform where we can watch web-shows and movies it was a group project in which we were five teammembers I created the authentication for the application like login page signup page</p>
               </Box>
               <Box marginTop={["10px","10px","15px","50px"]} >
               <h2>Tech Stack</h2>
               <Box  marginTop={["10px","10px","50px","50px"]}>
-                <h5>React</h5>
-                <h5>Chakra-Ui</h5>
-                <h5>Api</h5>
-                <h5>Redux</h5>
+                <h4>React</h4>
+                <h4>Chakra-Ui</h4>
+                <h4>Api</h4>
+                <h4>Redux</h4>
               </Box>
               </Box>
               <Box className="live-button"  marginTop={["10px","10px","50px","50px"]} >
@@ -90,7 +90,7 @@ const Projects = () => {
             <Box className="textl" width={["100%","100%","50%","50%"]}  textAlign={["left","left","center","center"]} >
               <h2>Name : Fashion Mantra</h2>
               <Box marginTop={["0","0","15px","50px"]} >
-                <p>This is an clone of E-Commerse website Industy Buying which sells Machine and tools my part w </p>
+                <p>This is an clone of E-Commerse website Myntra, this was a group project we were five team members, my part was to build the authentication and the admin side </p>
               </Box>
               <Box marginTop={["10px","10px","15px","50px"]} >
               <h2>Tech Stack</h2>
@@ -123,7 +123,7 @@ const Projects = () => {
             <Box className="textl" width={["100%","100%","50%","50%"]}  textAlign={["left","left","center","center"]} >
               <h2>Name: Industry Bying</h2>
               <Box  marginTop={["10px","10px","15px","50px"]} >
-                <p>This is clone of zee5 webiste which is an Indian streaming platform where you can watch Indian web-shows and movies this website is a solo project I built this project from scrath it has login and signup function also</p>
+                <p>This is clone of Industry Bying website which sells mechanical tools and industry releated things this was a group project we were five team members and we completed this within four days my part was to build the admin side</p>
               </Box>
               <Box marginTop={["10px","10px","15px","50px"]} >
               <h2>Tech Stack</h2>

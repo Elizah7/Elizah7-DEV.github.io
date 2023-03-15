@@ -2,31 +2,36 @@ import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, Draw
 import React, { useRef } from 'react'
 import resume from "../Resume/resume.pdf"
 import { CloseIcon, HamburgerIcon, Search2Icon, } from "@chakra-ui/icons";
-const HamMenu = ({ handleClick }) => {
+const HamMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = useRef()
-  return (<Box >
+  let handleClick2 = () => {
+    onClose()
+}
+  return (<Box>
     <IconButton icon={<HamburgerIcon />}
       display={{ md: "none" }}
       color="black"
       onClick={isOpen ? onClose : onOpen}
     />
     <Drawer
+     
       isOpen={isOpen}
-      placement='left'
+      placement='right'
       onClose={onClose}
       finalFocusRef={btnRef}
     >
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerBody>
-          <VStack alignItems="left">
-            <Link className="anchor1" href="#home" onClick={handleClick}>Home</Link>
-            <Link className="anchor1" href="#about" onClick={handleClick}>About</Link>
-            <Link className="anchor2" href="#about" onClick={handleClick}>Skills</Link>
-            <Link className="anchor3" href="#skills" onClick={handleClick}>Projects</Link>
-            <Link className="anchor4" href="#projects" onClick={handleClick}>Contacts</Link>
+        <DrawerHeader backgroundColor="gray"></DrawerHeader>
+        <DrawerBody backgroundColor="gray">
+          <VStack alignItems="center" className="left">
+            <Link className="anchor1" href="#home" onClick={handleClick2}>Home</Link>
+            <Link className="anchor1" href="#about" onClick={handleClick2}>About</Link>
+            <Link className="anchor2" href="#skills" onClick={handleClick2}>Skills</Link>
+            <Link className="anchor3" href="#projects" onClick={handleClick2}>Projects</Link>
+            <Link className="anchor4" href="#contact" onClick={handleClick2}>Contacts</Link>
             <Link className="anchor5" href={resume} download target="_blank">Resume</Link>
           </VStack>
         </DrawerBody>
