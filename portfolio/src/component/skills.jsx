@@ -15,10 +15,11 @@ const Skills = () => {
 
       <Box className="section nav-link skills" textAlign="center" paddingTop={["15%","15%","12%","3%"]} >
       <Heading as="h1" fontSize={["3xl","3xl","4xl","4xl"]}>Skills</Heading>
-        <SimpleGrid columns={["3","3","4","5"]} alignItems="center" justifyContent="center" gap="4%" className="skills" width={["100%","90%","80%","80%"]} margin="auto" height={{base:"500px",md:"460px"}} data-aos="fade-up">
+        <SimpleGrid columns={["3","3","4","5"]} alignItems="center" justifyContent="center" gap="4%" className="skills_child" width={["100%","90%","80%","80%"]} margin="auto" height={{base:"500px",md:"460px"}} data-aos="fade-up">
           <Flex>
             <FaHtml5  className="img" color="black"/>
-            {/* <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"/> */}
+            {/* <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"/> */} 
+
             <h4>HTML</h4>
           </Flex >
           <Flex >

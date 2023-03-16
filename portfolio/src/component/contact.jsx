@@ -23,7 +23,7 @@ const Contect = () => {
           <Box marginTop="20px">
             <h1 className="h4">Phone No : +91 8808346600</h1>
 
-            <HStack className="contact-child" width={["100%","95%","70%","50%"]}>
+            <HStack className="contact-child" width={["100%","95%","70%","50%"]} height={["250px","250px","300px","300px"]}>
                 <Box>
                     <a href="https://github.com/Elizah7" target="next-page">
                         <div>
