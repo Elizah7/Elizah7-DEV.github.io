@@ -77,7 +77,7 @@ const Projects = () => {
               </Box>
             </Box>
           </Box>
-          <Box data-aos="fade-up" display={{ base: "block", sm: "block", md: "flex" }} className="project-div" height={["550px", "460px", "430px", "450px"]} width={["100%", "100%", "95%", "95%"]}>
+          <Box data-aos="fade-up" display={{ base: "block", sm: "block", md: "flex" }} flexDirection="row-reverse" className="project-div" height={["550px", "460px", "430px", "450px"]} width={["100%", "100%", "95%", "95%"]}>
             <Box className="textl" width={["100%", "100%", "50%", "50%"]} textAlign={["left", "left", "center", "center"]} >
               <Box display="flex" justifyContent="space-around">
                 <Heading as="h2">Name: Fashhion Mantra</Heading>

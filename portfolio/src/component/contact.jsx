@@ -22,12 +22,11 @@ const Contect = () => {
           <Heading as="h1" fontSize={["3xl","3xl","4xl","4xl"]}>Contacts</Heading>
           <Box marginTop="20px">
             <h1 className="h4">Phone No : +91 8808346600</h1>
-
             <HStack className="contact-child" width={["100%","95%","70%","50%"]} height={["250px","250px","300px","300px"]}>
                 <Box>
                     <a href="https://github.com/Elizah7" target="next-page">
                         <div>
-                            <GoMarkGithub size="50%" color="black"/>
+                            <GoMarkGithub size="50%"/>
                         </div>
                         <h4>Github</h4>
                     </a>
@@ -35,7 +34,7 @@ const Contect = () => {
                 <Box>
                     <a href="https://www.linkedin.com/in/uddeshy-jaiswal-56a69a201/" target="next-page">
                         <div>
-                            <GrLinkedin size="50%" color="black"/>
+                            <GrLinkedin size="50%" />
                         </div>
                         <h4>Linkedin</h4>
                     </a>
@@ -43,14 +42,14 @@ const Contect = () => {
                 <Box>
                     <a href="https://wa.me/918808346600" target="_blank">
                         <div>
-                            <ImWhatsapp size="50%" color="black"/>
+                            <ImWhatsapp size="50%"/>
                         </div>
                         <h4>Whataspp</h4>
                     </a>
                 </Box>
             </HStack>
             </Box>
-            <form className="contact-form" onSubmit={sendEmail}>
+            {/* <form className="contact-form" onSubmit={sendEmail}>
                 <input type="hidden" name="contact_number" />
                 <label>Name</label>
                 <input type="text" name="from_name" />
@@ -61,8 +60,8 @@ const Contect = () => {
                 <label>Message</label>
                 <textarea name="html_message" />
                 <input type="submit" value="Send" />
-            </form>
-            );
+            </form> */}
+  
         </Box>
 
     )
