@@ -24,8 +24,8 @@ const HamMenu = () => {
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader backgroundColor="gray"></DrawerHeader>
-        <DrawerBody backgroundColor="gray">
+        <DrawerHeader backgroundColor="white"></DrawerHeader>
+        <DrawerBody backgroundColor="white">
           <VStack alignItems="center" className="left">
             <Link className="anchor1" href="#home" onClick={handleClick2}>Home</Link>
             <Link className="anchor1" href="#about" onClick={handleClick2}>About</Link>

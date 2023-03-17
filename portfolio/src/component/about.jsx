@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
 
-    return <Box className="home section nav-link about" width="100%" gap="5%" paddingTop={["15%", "15%", "12%", "6%"]} textAlign="center">
+    return <Box className="home section nav-link about" width="100%"  gap="5%" paddingTop={["15%", "15%", "12%", "6%"]} textAlign="center">
         <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>About Me</Heading>
         <Box display={{ base: "block", md: "flex" }}>
             <Box className="image-section" width={["80%", "75%", "50%", "30%"]} margin="auto" marginTop="4%" borderRadius="50%">

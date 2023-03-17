@@ -21,9 +21,9 @@ const Contect = () => {
         <Box className="section contact-section nav-link contact" paddingTop={["15%","15%","12%","3%"]} id="contact">
           <Heading as="h1" fontSize={["3xl","3xl","4xl","4xl"]}>Contacts</Heading>
           <Box marginTop="20px">
-            <h1 className="h4">Phone No : +91 8808346600</h1>
+            <h1 className="h4" id="contact-phone">Phone No : +91 8808346600</h1>
             <HStack className="contact-child" width={["100%","95%","70%","50%"]} height={["250px","250px","300px","300px"]}>
-                <Box>
+                <Box id="contact-github">
                     <a href="https://github.com/Elizah7" target="next-page">
                         <div>
                             <GoMarkGithub size="50%"/>
@@ -31,7 +31,7 @@ const Contect = () => {
                         <h4>Github</h4>
                     </a>
                 </Box>
-                <Box>
+                <Box id="contact-linkedin">
                     <a href="https://www.linkedin.com/in/uddeshy-jaiswal-56a69a201/" target="next-page">
                         <div>
                             <GrLinkedin size="50%" />
