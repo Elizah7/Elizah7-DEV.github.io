@@ -16,39 +16,39 @@ const Skills = () => {
       <Box className="section nav-link skills" textAlign="center" paddingTop={["15%","15%","12%","3%"]} >
       <Heading as="h1" fontSize={["3xl","3xl","4xl","4xl"]}>Skills</Heading>
         <SimpleGrid columns={["3","3","4","5"]} alignItems="center" justifyContent="center" gap="4%" className="skills_child" width={["100%","90%","80%","80%"]} margin="auto" height={{base:"500px",md:"460px"}} data-aos="fade-up">
-          <Flex>
-            <FaHtml5  className="img" color="black"/>
+          <Flex className="skills-card">
+            <FaHtml5  className="img" color="rgb(44, 42, 42)"/>
             {/* <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"/> */} 
 
             <h4>HTML</h4>
           </Flex >
-          <Flex >
-            <DiCss3  className="img" color="black" />
+          <Flex className="skills-card">
+            <DiCss3  className="img" color="rgb(44, 42, 42)" />
             <h4>CSS</h4>
           </Flex>
-          <Flex >
-            <DiJavascript1 className="img" color="black" />
+          <Flex className="skills-card">
+            <DiJavascript1 className="img" color="rgb(44, 42, 42)" />
             <h4>Java-Script</h4>
           </Flex>
-          <Flex >
-            <SiChakraui className="img"  color="black" />
+          <Flex className="skills-card">
+            <SiChakraui className="img"  color="rgb(44, 42, 42)" />
             <h4>Chakra-UI</h4>
           </Flex>
-          <Flex >
-            <FaReact className="img" color="black" />
+          <Flex className="skills-card">
+            <FaReact className="img" color="rgb(44, 42, 42)" />
             <h4>React</h4>
           </Flex>
-          <Flex  >
-            <SiRedux  className="img" color="black" />
+          <Flex className="skills-card" >
+            <SiRedux  className="img" color="rgb(44, 42, 42)" />
             <h4>Redux</h4>
           </Flex>
-          <Flex >
-            <FaNodeJs className="img" color="black" />
+          <Flex className="skills-card">
+            <FaNodeJs className="img" color="rgb(44, 42, 42)" />
             <h4>NodeJs</h4>
           </Flex>
-          <Flex >
-            <SiMongodb  className="img" color="black" />
-            <h4>MongoDb</h4>
+          <Flex className="skills-card">
+            <SiMongodb  className="img skills-card-img" color="rgb(44, 42, 42)"/>
+            <h4 className="skills-card-name">MongoDb</h4>
           </Flex>
         </SimpleGrid>
       </Box>
