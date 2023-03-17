@@ -20,35 +20,35 @@ const Skills = () => {
             <FaHtml5  className="img skills-card-img" color="rgb(44, 42, 42)"/>
             {/* <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"/> */} 
 
-            <h4>HTML</h4>
+            <h4 className="skills-card-name">HTML</h4>
           </Flex >
           <Flex className="skills-card">
             <DiCss3  className="img skills-card-img" color="rgb(44, 42, 42)" />
-            <h4>CSS</h4>
+            <h4 className="skills-card-name">CSS</h4>
           </Flex>
           <Flex className="skills-card">
             <DiJavascript1 className="img skills-card-img" color="rgb(44, 42, 42)" />
-            <h4>Java-Script</h4>
+            <h4 className="skills-card-name">Java-Script</h4>
           </Flex>
           <Flex className="skills-card">
             <SiChakraui className="img skills-card-img"  color="rgb(44, 42, 42)" />
-            <h4>Chakra-UI</h4>
+            <h4 className="skills-card-name">Chakra-UI</h4>
           </Flex>
           <Flex className="skills-card">
             <FaReact className="img skills-card-img" color="rgb(44, 42, 42)" />
-            <h4>React</h4>
+            <h4 className="skills-card-name">React</h4>
           </Flex>
           <Flex className="skills-card" >
             <SiRedux  className="img skills-card-img" color="rgb(44, 42, 42)" />
-            <h4>Redux</h4>
+            <h4 className="skills-card-name">Redux</h4>
           </Flex>
           <Flex className="skills-card">
             <FaNodeJs className="img skills-card-img" color="rgb(44, 42, 42)" />
-            <h4>NodeJs</h4>
+            <h4 className="skills-card-name">NodeJs</h4>
           </Flex>
           <Flex className="skills-card">
             <SiMongodb  className="img skills-card-img" color="rgb(44, 42, 42)"/>
-            <h4 className="skills-card-">MongoDb</h4>
+            <h4 className="skills-card-name">MongoDb</h4>
           </Flex>
         </SimpleGrid>
       </Box>

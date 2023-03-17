@@ -170,12 +170,12 @@ h1 {
   z-index: 2;
   cursor: pointer;
 }
-#resume-link-1 button{
+#resume-link-2 button{
   background-color: rgb(44, 42, 42);
   color:white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-#resume-link-1 button:hover{
+#resume-link-2 button:hover{
   background-color: white;
   color: rgb(44, 42, 42);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;

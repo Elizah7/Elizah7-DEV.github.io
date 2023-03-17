@@ -10,7 +10,7 @@ const Calender = () => {
         <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>Calendar & Stats</Heading>
         <Text className='statHeading' pb="25px" marginTop="20px">Check out my Github Calendar & Streak Stats</Text>
       </Box>
-      <Box style={{ textAlign: 'center' }} className='calanderBox' data-aos="fade-up" id="github-stats-card">
+      <Box style={{ textAlign: 'center' }} className='calanderBox react-activity-calendar' data-aos="fade-up" >
         <GitHubCalendar username="Elizah7" >
           <ReactTooltip className="react-tool" delayShow={20} html />
         </GitHubCalendar>
