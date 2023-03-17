@@ -59,7 +59,7 @@ const Projects = () => {
                 <Heading as="h2" className="project-title">Name: DevTv+</Heading>
                 <Heading as="h2">Front-End Project</Heading>
               </Box>
-              <Box marginTop={["10px", "10px", "15px", "50px"]} >
+              <Box marginTop={["10px", "10px", "15px", "50px"]} className="project-description" >
                 <p>This is a clone of AppleTv+ which is a straming platform where we can watch web-shows and movies it was a group project in which we were five teammembers I created the authentication for the application like login page signup page</p>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "50px"]} >
@@ -83,7 +83,7 @@ const Projects = () => {
                 <Heading as="h2" className="project-title">Name: Fashion Mantra</Heading>
                 <Heading as="h2">Front-End Project</Heading>
               </Box>
-              <Box marginTop={["0", "0", "15px", "50px"]} >
+              <Box marginTop={["0", "0", "15px", "50px"]} className="project-description">
                 <p>This is a clone of E-Commerse website Myntra, this was a group project we were five team members, my part was to build the authentication and the admin side </p>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "50px"]} >
@@ -131,7 +131,7 @@ const Projects = () => {
                 <Heading as="h2" className="project-title">Name: Industry Buying</Heading>
                 <Heading as="h2">Full Stack Project</Heading>
               </Box>
-              <Box marginTop={["10px", "10px", "15px", "50px"]} >
+              <Box marginTop={["10px", "10px", "15px", "50px"]} className="project-description">
                 <p>This is a clone of Industry Bying website which sells mechanical tools and industry releated things this was a group project we were five team members and we completed this within four days my part was to build the admin side</p>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "20px"]} >
@@ -159,7 +159,7 @@ const Projects = () => {
                 <Heading as="h2" className="project-title">Name: Fashion Mantra</Heading>
                 <Heading as="h2">Front-End Project</Heading>
               </Box>
-              <Box marginTop={["0", "0", "15px", "50px"]} >
+              <Box marginTop={["0", "0", "15px", "50px"]} className="project-description">
                 <p>This is a clone of E-Commerse website Myntra, this was a group project we were five team members, my part was to build the authentication and the admin side </p>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "50px"]} >

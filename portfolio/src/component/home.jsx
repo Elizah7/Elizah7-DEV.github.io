@@ -10,7 +10,7 @@ const Home = ()=>{
                 <Heading as="h1">Hi,</Heading>
                 <Heading as="h1" id="user-detail-name">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  
-                <Box paddingTop="70px">
+                <Box paddingTop="70px" id="resume-button-2">
                 <Link  width={["0","0","16%","15%"]}  id="resume-link-1" href={resume} download target="_blank" ><Button><FiDownload/> Resume</Button> </Link>
                 </Box>
              </Box>

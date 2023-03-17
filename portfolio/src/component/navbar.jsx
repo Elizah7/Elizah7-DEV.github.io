@@ -31,7 +31,7 @@ const NavbarLink = () => {
                               <Link  width={["0","0","16%","15%"]} className="anchor2" href="#skills">Skills</Link>
                               <Link  width={["0","0","16%","15%"]} className="anchor3" href="#projects">Projects</Link>
                               <Link  width={["0","0","16%","15%"]} className="anchor4" href="#contact">Contacts</Link>
-                              <Link  width={["0","0","16%","15%"]} className="anchor5" id="resume-link-1" href={resume} download target="_blank">Resume</Link>
+                              <Link  width={["0","0","16%","15%"]} className="anchor5" id=" resume-button-1"  href={resume} download target="_blank">Resume</Link>
                         </HStack>
                         <Flex display={{base:"flex",md:"none"}} paddingRight="3%">
                               <HamMenu />
