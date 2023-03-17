@@ -6,7 +6,7 @@ import {FiDownload} from "react-icons/fi"
 const Home = ()=>{
  
      return <Box className="section nav-link home"  width="100%" display={{base:"block",md:"flex"}} gap="5%" paddingTop={["15%","15%","12%","6%"]} >
-             <Box className="about-section" width={["80%","98%","50%","50%"]} margin="auto" paddingTop="1%">
+             <Box className="about-section" id="user-detail-intro" width={["80%","98%","50%","50%"]} margin="auto" paddingTop="1%">
                 <Heading as="h1">Hi,</Heading>
                 <Heading as="h1" id="user-detail-name">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  

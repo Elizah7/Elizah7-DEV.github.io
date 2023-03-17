@@ -71,7 +71,7 @@ const Projects = () => {
                   <Heading as="h6">Redux</Heading>
                 </Box>
               </Box>
-              <Box className="live-button" marginTop={["10px", "10px", "50px", "50px"]} >
+              <Box className="live-button" marginTop={["10px", "10px", "60px", "50px"]} >
                 <a href="https://github.com/Channa47/debonair-salt-5814" target="next-page" className="project-github-link">Github</a>
                 <a href="https://devtv.netlify.app" target="next-page" className="project-deployed-link">Live server</a>
               </Box>
@@ -95,7 +95,7 @@ const Projects = () => {
                   <Heading as="h6">Redux</Heading>
                 </Box>
               </Box>
-              <Box marginTop={["10px", "10px", "15px", "50px"]} className="live-button">
+              <Box marginTop={["10px", "10px", "60px", "50px"]} className="live-button">
                 <a href="https://github.com/Navneetcode1/animated-plants-4461" className="project-github-link">Github</a>
                 <a href="https://fashionmantra.vercel.app/" className="project-deployed-link">Live server</a>
               </Box  >
@@ -136,7 +136,7 @@ const Projects = () => {
               </Box>
               <Box marginTop={["10px", "10px", "15px", "20px"]} >
                 <Heading as="h2">Tech Stack :</Heading>
-                <Box marginTop={["5px", "5px", "15px", "20px"]} className="tech_stack">
+                <Box marginTop={["5px", "5px", "20px", "20px"]} className="tech_stack">
                   <Heading as="h6">React</Heading>
                   <Heading as="h6">Chakra-Ui</Heading>
                   <Heading as="h6">Api</Heading>
@@ -147,7 +147,7 @@ const Projects = () => {
 
                 </Box>
               </Box>
-              <Box className="live-button" marginTop={["60px", "10px", "15px", "80px"]} >
+              <Box className="live-button" marginTop={["60px", "10px", "60px", "80px"]} >
                 <a href="https://github.com/Prashant1562/IndustryBuying-Clone" className="project-github-link">Github</a>
                 <a href="https://soft-dogs-2567.netlify.app/" className="project-deployed-link">Live server</a>
               </Box>
@@ -171,7 +171,7 @@ const Projects = () => {
                   <Heading as="h6">Redux</Heading>
                 </Box>
               </Box>
-              <Box marginTop={["10px", "10px", "15px", "50px"]} className="live-button">
+              <Box marginTop={["10px", "10px", "60px", "50px"]} className="live-button">
                 <a href="https://github.com/Navneetcode1/animated-plants-4461" className="project-github-link">Github</a>
                 <a href="https://fashionmantra.vercel.app/" className="project-deployed-link">Live server</a>
               </Box  >
