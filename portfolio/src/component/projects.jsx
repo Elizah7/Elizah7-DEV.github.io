@@ -77,10 +77,10 @@ const Projects = () => {
               </Box>
             </Box>
           </Box>
-          <Box data-aos="fade-up" display={{ base: "block", sm: "block", md: "flex" }} flexDirection="row-reverse" className="project-div" height={["550px", "460px", "430px", "450px"]} width={["100%", "100%", "95%", "95%"]}>
-            <Box className="textl" width={["100%", "100%", "50%", "50%"]} textAlign={["left", "left", "center", "center"]} >
+          <Box data-aos="fade-up" display={{ base: "flex", sm: "flex", md: "flex" }} flexDirection={["column-reverse","column-reverse","column","column"]} className="project-div" height={["550px", "460px", "430px", "450px"]} width={["100%", "100%", "95%", "95%"]}>
+            <Box className="textl" width={["100%", "100%", "50%", "50%"]} textAlign={["left", "left", "center", "center"]} height={["60%","60%","100%","100%"]} >
               <Box display="flex" justifyContent="space-around">
-                <Heading as="h2">Name: Fashhion Mantra</Heading>
+                <Heading as="h2">Name: Fashion Mantra</Heading>
                 <Heading as="h2">Front-End Project</Heading>
               </Box>
               <Box marginTop={["0", "0", "15px", "50px"]} >
@@ -113,7 +113,7 @@ const Projects = () => {
               </Slide>
             </Box>
           </Box>
-          <Box display={{ base: "block", sm: "block", md: "flex" }} className="project-div" width={["100%", "100%", "95%", "95%"]} height={["550px", "460px", "430px", "450px"]} data-aos="fade-up">
+          <Box display={{ base: "block", sm: "block", md: "flex" }} className="project-div" width={["100%", "100%", "95%", "95%"]} height={["680px", "460px", "430px", "450px"]} data-aos="fade-up">
             <Box className="slide-container" width={["100%", "100%", "50%", "50%"]} height={["40%", "40%", "100%", "99%"]}>
               <Slide>
                 {industry.map((slideImage, index) => (
@@ -147,7 +147,7 @@ const Projects = () => {
 
                 </Box>
               </Box>
-              <Box className="live-button" marginTop={["10px", "10px", "15px", "80px"]} >
+              <Box className="live-button" marginTop={["60px", "10px", "15px", "80px"]} >
                 <a href="https://github.com/Prashant1562/IndustryBuying-Clone">Github</a>
                 <a href="https://soft-dogs-2567.netlify.app/">Live server</a>
               </Box>

@@ -6,7 +6,7 @@ import React from "react";
 const Home = ()=>{
  
      return <Box className="home section nav-link home" width="100%" display={{base:"block",md:"flex"}} gap="5%" paddingTop={["15%","15%","12%","6%"]} >
-             <Box className="about-section" width={["80%","98%","50%","50%"]} margin="auto">
+             <Box className="about-section" width={["80%","98%","50%","50%"]} margin="auto" paddingTop="1%">
                 <Heading as="h1">Hi,</Heading>
                 <Heading as="h1">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  

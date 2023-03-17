@@ -238,7 +238,6 @@ h1 {
 .textl div:nth-child(2) {
   width: 100%;
   display: flex;
- 
   row-gap: 1%;
 }
 
