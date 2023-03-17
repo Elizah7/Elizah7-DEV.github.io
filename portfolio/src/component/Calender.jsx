@@ -17,14 +17,14 @@ const Calender = () => {
       </Box>
       <Box className="statBox-dark" data-aos="fade-up" width={["100%", "100%", "100%", "100%"]} display={["block", "block", "flex", "flex"]} flexWrap="wrap" justifyContent="space-around" alignItems="center" rowGap="10px">
 
-        <Box id="github-streak-stats" width={["100%","100%","45%","45%"]} height={["200px","200px","280px","300px"]}>
-          <Image src="https://streak-stats.demolab.com/?user=Elizah7&theme=black&hide_border=true&border_radius=10" width='100%' alt="" height="100%"  />
+        <Box  width={["100%","100%","45%","45%"]} height={["200px","200px","280px","300px"]}>
+          <Image id="github-streak-stats" src="https://streak-stats.demolab.com/?user=Elizah7&theme=black&hide_border=true&border_radius=10" width='100%' alt="" height="100%"  />
         </Box>
-        <Box id="github-stats-card" width={["100%","100%","45%","45%"]} height={["200px","200px","280px","300px"]}>
-          <Image src="https://github-readme-stats.vercel.app/api?username=elizah7" width='100%' alt="" height="100%"  />
+        <Box  width={["100%","100%","45%","45%"]} height={["200px","200px","280px","300px"]}>
+          <Image id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=elizah7" width='100%' alt="" height="100%"  />
         </Box>
-        <Box id="github-top-langs" width={["100%","100%","45%","45%"]} height={["200px","200px","280px","300px"]}>
-          <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=elizah7" width='100%' alt="" height="100%" />
+        <Box  width={["100%","100%","45%","45%"]} height={["200px","200px","280px","300px"]}>
+          <Image id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elizah7" width='100%' alt="" height="100%" />
         </Box>
 
       </Box>
