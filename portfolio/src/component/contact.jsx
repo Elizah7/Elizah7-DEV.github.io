@@ -77,7 +77,7 @@ const Contect = () => {
                 <Input type="submit" value="Send"  className="from_submit"/>
             </form>
             </Box>
-            <Heading as="h4">Thanks for visiting</Heading>
+          
         </Box>
 
     )

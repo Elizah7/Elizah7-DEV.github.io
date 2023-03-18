@@ -24,7 +24,6 @@ const NavbarLink = () => {
                                     <Image className="logo-img" src="https://t4.ftcdn.net/jpg/02/93/29/43/360_F_293294319_YPgRVpVJylQY9G55qi735ac2tEPnFlpd.jpg" alt="logo" />
                               </a>
                         </Box>
-
                         <HStack height="50%" width={["0","0","60%","50%"]} display={{ base: "none", md: "flex" }} className="stack" paddingRight="1%">
                               <Link width={["0","0","16%","15%"]} className="anchor1" href="#home">Home</Link>
                               <Link  width={["0","0","16%","15%"]} className="anchor1" href="#about">About</Link>
