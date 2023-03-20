@@ -66,7 +66,7 @@ const Contect = () => {
             <Box width={["100%","100%","50%","50%"]} className="form" margin="auto" marginTop="50px" id="contact-email">
                 <Heading as="h1">Email</Heading>
             <form ref={form} onSubmit={sendEmail}>
-                <FormLabel>Name</FormLabel>
+                <FormLabel><Heading as="h6">Name</Heading></FormLabel>
                 <Input type="text" name="user_name" />
                 <FormLabel>Email</FormLabel>
                 <Input type="email" name="user_email" />
