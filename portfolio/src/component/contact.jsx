@@ -32,7 +32,7 @@ const Contect = () => {
     }
 
     return (
-        <Box className="section contact-section nav-link contact" paddingTop={["15%", "15%", "12%", "3%"]} id="contact" height={["150vh","150vh","150vh","150vh"]}>
+        <Box className="section contact-section nav-link contact" paddingTop={["15%", "15%", "12%", "3%"]} id="contact" height={["150vh","150vh","160vh","160vh"]}>
             <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>Contacts</Heading>
             <Box marginTop="20px">
                 <h1 className="h4" id="contact-phone">Phone No : +91 8808346600</h1>
