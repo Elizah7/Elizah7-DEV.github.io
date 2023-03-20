@@ -32,7 +32,7 @@ const Contect = () => {
     }
 
     return (
-        <Box className="section contact-section nav-link contact" paddingTop={["15%", "15%", "12%", "3%"]} id="contact" height={["150vh","150vh","200vh","200vh"]}>
+        <Box className="section contact-section nav-link contact" paddingTop={["15%", "15%", "12%", "3%"]} id="contact" height={["150vh","150vh","150vh","150vh"]}>
             <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>Contacts</Heading>
             <Box marginTop="20px">
                 <h1 className="h4" id="contact-phone">Phone No : +91 8808346600</h1>
@@ -63,7 +63,7 @@ const Contect = () => {
                     </Box>
                 </HStack>
             </Box>
-            <Box width={["100%","100%","50%","50%"]} className="form" margin="auto" marginTop="50px" id="contact-email">
+            <Box width={["100%","100%","50%","50%"]} className="form" margin="auto" marginTop="50px" id="contact-email" padding={["1%","1%","1%","1%"]}>
                 <Heading as="h1">Email</Heading>
             <form ref={form} onSubmit={sendEmail}>
                 <FormLabel><Heading as="h6">Name</Heading></FormLabel>
