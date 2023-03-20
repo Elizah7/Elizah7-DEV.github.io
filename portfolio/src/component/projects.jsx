@@ -38,7 +38,7 @@ const Projects = () => {
   return (
     <>
 
-      <Box className="projects-section section nav-link projects" paddingTop={["15%", "15%", "12%", "3%"]} fontSize={["xm", "sm", "md", "l"]} id="projects" height={["370vh","370vh","320vh","320vh"]}>
+      <Box className="projects-section section nav-link projects" paddingTop={["15%", "15%", "12%", "3%"]} fontSize={["xm", "sm", "md", "l"]} id="projects" height={["370vh","370vh","300vh","300vh"]}>
         <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>My Projects</Heading>
         <Box className="projects-container">
           <Box data-aos="fade-up" display={{ base: "block", sm: "block", md: "flex" }} className="project-div project-card" height={["550px", "460px", "430px", "450px"]} width={["100%", "100%", "95%", "95%"]}>
@@ -192,7 +192,7 @@ const Projects = () => {
         </Box>
 
       </Box>
-      <Box className="github-section">
+      <Box className="github-section" marginTop={["5%","5%","20%","20%"]}>
         <Calender />
       </Box>
 
