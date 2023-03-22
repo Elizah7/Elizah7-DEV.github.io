@@ -14,7 +14,7 @@ const About = () => {
             <Box className="about-section" width={["95%", "98%", "50%", "50%"]} margin="auto" textAlign="center" id="user-detail-intro">
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>
                 <br />
-                <Text >A Full Stack Web Developer with more than 1200+ hours of experience of coding and creating dynamic and responsive web applications. I have a strong background in both front-end and back-end development, as well as experience working with thechnologies like React, Redux, Api, . I'm always interested in learning new technologies and staying up-to-date on the latest trends in web development.</Text>
+                <Text >A Full Stack Web Developer with more than 1200+ hours of experience of coding and creating dynamic and responsive web applications. I have a strong background in both front-end and back-end development, as well as experience working with thechnologies like Html, CSS, JavaScript, React, Redux, Api, . I'm always interested in learning new technologies and staying up-to-date on the latest trends in web development.</Text>
             </Box>
         </Box>
     </Box>
