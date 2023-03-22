@@ -5,14 +5,8 @@ import {FiDownload} from "react-icons/fi"
 
 const Home = ()=>{
 
-  const handlDownload = ()=>{
-
-         // const atag = document.createElement("a")
-         // atag.href  = pdfurl
-         // atag.setAttribute = ("target","_blank")
-         // document.body.append(atag)
-         // atag.click()
-         // atag.remove()
+  const handleClick2 = ()=>{
+    window.open(resume)
   }
      return <Box className="section nav-link home"  width="100%" display={{base:"block",md:"flex"}} gap="5%" paddingTop={["15%","15%","12%","6%"]} >
              <Box className="about-section" width={["80%","98%","50%","50%"]} margin="auto" paddingTop="1%">
@@ -20,7 +14,7 @@ const Home = ()=>{
                 <Heading as="h1" id="user-detail-name">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  
                 <Box paddingTop="70px" id="resume-button-2">
-                <Link  width={["0","0","16%","15%"]}  id="resume-button-2" href={resume} target="next_page" download="uddeshy_resume.pdf" ><Button><FiDownload/> Resume</Button> </Link>
+                <Link  width={["0","0","16%","15%"]}   href={resume} target="next_page" download ><Button id="resume-button-2" onClick={()=>handleClick2()}><FiDownload/> Resume</Button> </Link>
                 </Box>
              </Box>
              <Box  width={["80%","75%","50%","30%"]} margin="auto" paddingTop={["8%","8%","0","0"]} className="image-section2">

@@ -16,6 +16,10 @@ const NavbarLink = () => {
       const { isOpen, onOpen, onClose } = useDisclosure()
       const btnRef = useRef()
 
+      const hadleClick = ()=>{
+            window.open(resume)
+      }
+
       return (
             <>
                   <Flex id="nav-menu" width={["100%", "100%", "100%", "100%"]} height={["10%", "10%", "10%", "15%"]} className="navbar" justifyContent="space-between" alignItems="center" >
@@ -30,7 +34,7 @@ const NavbarLink = () => {
                               <Link width={["0", "0", "16%", "15%"]} className="anchor2" href="#skills">Skills</Link>
                               <Link width={["0", "0", "16%", "15%"]} className="anchor3" href="#projects">Projects</Link>
                               <Link width={["0", "0", "16%", "15%"]} className="anchor4" href="#contact">Contacts</Link>
-                              <Link width={["0", "0", "16%", "15%"]} className="anchor5 nav-link resume" id="resume-button-1" href={resume}  target="_blank" ><FiDownload /> Resume </Link>
+                              <Link width={["0", "0", "16%", "15%"]} className="anchor5 "  href={resume} download target="_blank" ><Button id="resume-button-1" className="nav-link resume" onClick={()=>hadleClick()}><FiDownload /> Resume</Button> </Link>
                         </HStack>
                         <Flex display={{ base: "flex", md: "none" }} paddingRight="3%">
                               <HamMenu />
