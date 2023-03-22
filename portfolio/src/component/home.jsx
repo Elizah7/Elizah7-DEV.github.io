@@ -13,7 +13,7 @@ const Home = ()=>{
                 <Heading as="h1">Hi,</Heading>
                 <Heading as="h1" id="user-detail-name">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  
-                <Box paddingTop="70px" id="resume-button-2">
+                <Box paddingTop="70px">
                 <Link  width={["0","0","16%","15%"]}   href={resume} target="next_page" download ><Button id="resume-button-2" onClick={()=>handleClick2()}><FiDownload/> Resume</Button> </Link>
                 </Box>
              </Box>
