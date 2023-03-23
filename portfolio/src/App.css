@@ -9,6 +9,7 @@ html {
 
 .App {
   /* background-color: rgb(194, 189, 189); */
+
   background-color: white;
   font-family: 'Open Sans';
   font-family: 'Open Sans', sans-serif;
@@ -23,6 +24,7 @@ html {
 
 .navbar {
   /* background-color: rgb(142, 141, 141); */
+
   background-color: white;
   position: fixed;
   top: 0;
@@ -55,12 +57,13 @@ html {
   justify-content: space-around;
   align-items: center;
   /* border: 1px solid red; */
+  color: white;
 }
 
-.stack>a {
+.anchor {
   /* text-shadow: 2px 2px 8px #f3f1f1; */
   background-color: rgb(44, 42, 42);
-  color: white;
+
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   display: flex;
   text-decoration: none;
@@ -69,10 +72,26 @@ html {
   height: 100%;
   border-radius: 10px;
 }
+.anchor5  {
+  /* text-shadow: 2px 2px 8px #f3f1f1; */
+  background-color: rgb(44, 42, 42);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  height: 100%;
+  border-radius: 10px;
+}
+.anchor5 button{
+  background-color: rgb(44, 42, 42);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  height: 100%;
+  border-radius: 10px;
+}
+.anchor5 button:hover {
+  background-color: white;
+  color: black;
+}
 
 
-
-.stack a:hover {
+.anchor:hover {
   background-color: white;
   color: black;
 }
@@ -178,12 +197,12 @@ h1 {
   z-index: 2;
   cursor: pointer;
 }
-#resume-button-2 button{
+#resume-button button{
   background-color: rgb(44, 42, 42);
   color:white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-#resume-button-2 button:hover{
+#resume-button button:hover{
   background-color: white;
   color: rgb(44, 42, 42);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -413,7 +432,7 @@ h1 {
   padding: 4%;
 }
 
-@keyframes slide-left {
+/* @keyframes slide-left {
   0% {
     transform: translateX(-100%);
   }
@@ -449,4 +468,4 @@ h1 {
   100% {
     transform: translateY(0%);
   }
-}
+} */
