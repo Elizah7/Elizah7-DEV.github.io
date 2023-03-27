@@ -28,6 +28,13 @@ const Projects = () => {
     { img: "style/industrybying5.png" },
     { img: "style/industrybying6.png" },
   ]
+  const gullible = [
+    {img:"style/gullible.png"},
+    {img:"style/gullible2.png"},
+    {img:"style/gullible3.png"},
+    {img:"style/gullible4.png"},
+    {img:"style/gullible5.png"}
+  ]
   const divStyle = {
     display: 'flex',
     alignItems: 'center',
@@ -156,29 +163,28 @@ const Projects = () => {
           <Box data-aos="fade-up" display={{ base: "flex", sm: "flex", md: "flex" }} flexDirection={["column-reverse","column-reverse","row","row"]} className="project-div project-card" height={["550px", "460px", "430px", "450px"]} width={["100%", "100%", "95%", "95%"]}>
             <Box className="textl" width={["100%", "100%", "50%", "50%"]} textAlign={["left", "left", "center", "center"]} height={["60%","60%","100%","100%"]} >
               <Box display="flex" justifyContent="space-around">
-                <Heading as="h2" className="project-title">Name: Fashion Mantra</Heading>
+                <Heading as="h2" className="project-title">Name: Asos</Heading>
                 <Heading as="h2">Front-End Project</Heading>
               </Box>
               <Box marginTop={["0", "0", "15px", "50px"]} className="project-description">
-                <p>This is a clone of E-Commerse website Myntra, this was a group project we were five team members, my part was to build the authentication and the admin side </p>
+                <p>This is a clone of E-Commerse website Asos, this was a group project we were five team members and we built this website in four days, my part was to build the cart section  </p>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "50px"]} >
                 <Heading as="h2">Tech Stack :</Heading>
                 <Box marginTop={["10px", "10px", "15px", "50px"]} className="tech_stack">
-                  <Heading as="h6">React</Heading>
-                  <Heading as="h6">Chakra-Ui</Heading>
-                  <Heading as="h6">Api</Heading>
-                  <Heading as="h6">Redux</Heading>
+                  <Heading as="h6">Html</Heading>
+                  <Heading as="h6">CSS</Heading>
+                  <Heading as="h6">Javascript</Heading>
                 </Box>
               </Box>
               <Box marginTop={["10px", "10px", "60px", "50px"]} className="live-button">
-                <a href="https://github.com/Navneetcode1/animated-plants-4461" className="project-github-link">Github</a>
-                <a href="https://fashionmantra.vercel.app/" className="project-deployed-link">Live server</a>
+                <a href="https://github.com/Elizah7/gullible-pear-795" className="project-github-link">Github</a>
+                <a href="https://gullible-pear-795.vercel.app/" className="project-deployed-link">Live server</a>
               </Box  >
             </Box>
             <Box className="slide-container" width={["100%", "100%", "50%", "50%"]} height={["40%", "40%", "100%", "99%"]}>
               <Slide>
-                {fashion.map((slideImage, index) => (
+                {gullible.map((slideImage, index) => (
                   <Box key={index} height={["220px", "220px", "430px", "448px"]}>
                     <Box display="flex" justifyContent="center" height="100%">
                       <Image src={slideImage.img} />
@@ -192,7 +198,7 @@ const Projects = () => {
         </Box>
 
       </Box>
-      <Box className="github-section" marginTop={["5%","5%","20%","20%"]}>
+      <Box className="github-section" marginTop={["5%","5%","50%","5%"]}>
         <Calender />
       </Box>
 

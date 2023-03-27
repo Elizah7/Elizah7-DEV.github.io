@@ -6,7 +6,7 @@ import {FiDownload} from "react-icons/fi"
 const Home = ()=>{
 
   const handleClick2 = ()=>{
-    window.open(resume,"_blank")
+    window.open(resume)
   }
      return <Box className="section nav-link home"  width="100%" display={{base:"block",md:"flex"}} gap="5%" paddingTop={["15%","15%","12%","6%"]} >
              <Box className="about-section" width={["80%","98%","50%","50%"]} margin="auto" paddingTop="1%">
@@ -14,10 +14,7 @@ const Home = ()=>{
                 <Heading as="h1" id="user-detail-name">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  
                 <Box paddingTop="70px">
-                <Button width={["0","0","16%","15%"]}  id="resume-button-2" onClick={()=>handleClick2()}>
-                   <Link display="flex" href={resume} id="resume-link-2" download ><FiDownload/> Resume </Link>
-                </Button>
-              
+                    <Link  width={["0","0","16%","15%"]}   href={resume} id="resume-button" download ><Button id="resume-button-2" onClick={()=>handleClick2()}><FiDownload/> Resume</Button> </Link>
                 </Box>
              </Box>
              <Box  width={["80%","75%","50%","30%"]} margin="auto" paddingTop={["8%","8%","0","0"]} className="image-section2">
