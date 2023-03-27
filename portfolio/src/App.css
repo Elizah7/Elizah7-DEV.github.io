@@ -63,7 +63,6 @@ html {
 .anchor {
   /* text-shadow: 2px 2px 8px #f3f1f1; */
   background-color: rgb(44, 42, 42);
-
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   display: flex;
   text-decoration: none;
@@ -123,7 +122,6 @@ html {
 
 
 .calanderBox {
-
   margin: auto;
   display: flex;
   justify-content: center;
@@ -132,14 +130,11 @@ html {
 }
 
 .statBox-dark {
-
   font-size: 90%;
   height: 50%;
   margin: auto;
   margin-top: 5%;
   text-align: center;
-
-  
 }
 .statBox-dark div{
   border-radius: 20px;
@@ -197,12 +192,12 @@ h1 {
   z-index: 2;
   cursor: pointer;
 }
-#resume-button button{
+#resume-button-2 {
   background-color: rgb(44, 42, 42);
   color:white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-#resume-button button:hover{
+#resume-button-2:hover{
   background-color: white;
   color: rgb(44, 42, 42);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
