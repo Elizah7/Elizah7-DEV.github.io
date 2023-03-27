@@ -15,7 +15,7 @@ const Home = ()=>{
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  
                 <Box paddingTop="70px">
                 <Button width={["0","0","16%","15%"]}  id="resume-button-2" onClick={()=>handleClick2()}>
-                   <Link display="flex" href={resume} id="resume-button" download ><FiDownload/> Resume </Link>
+                   <Link display="flex" href={resume} id="resume-link-2" download ><FiDownload/> Resume </Link>
                 </Button>
               
                 </Box>
