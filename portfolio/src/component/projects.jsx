@@ -139,7 +139,7 @@ const Projects = () => {
                 <Heading as="h2">Full Stack Project</Heading>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "50px"]} className="project-description">
-                <p>This is a clone of Industry Bying website which sells mechanical tools and industry releated things this was a group project we were five team members and we completed this within four days my part was to build the admin side</p>
+                <p textAlign="left">This is a clone of Industry Bying website which sells mechanical tools and industry releated things this was a group project we were five team members and we completed this within four days my part was to build the admin side</p>
               </Box>
               <Box marginTop={["10px", "10px", "15px", "20px"]} >
                 <Heading as="h2">Tech Stack :</Heading>
