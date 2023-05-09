@@ -14,7 +14,7 @@ const Home = ()=>{
                 <Heading as="h1" id="user-detail-name">I am Uddeshy Jaiswal</Heading>
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>  
                 <Box paddingTop="70px">
-                <Button id="resume-button-2" className="nav-link resume" onClick={()=>handleClick2()}>  <Link  width={["0","0","16%","15%"]}   href={resume} id="resume-button" download ><FiDownload/> Resume </Link></Button>
+                <Button id="resume-button-2" onClick={()=>handleClick2()}>  <Link className="nav-link resume"   width={["0","0","16%","15%"]}   href={resume} id="resume-button" download ><FiDownload/> Resume </Link></Button>
                 </Box>
              </Box>
              <Box  width={["80%","75%","50%","30%"]} margin="auto" paddingTop={["8%","8%","0","0"]} className="image-section2">
