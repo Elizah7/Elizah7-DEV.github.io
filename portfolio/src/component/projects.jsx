@@ -103,8 +103,8 @@ const Projects = () => {
                 </Box>
               </Box>
               <Box marginTop={["10px", "10px", "60px", "50px"]} className="live-button">
-                <a href="https://github.com/Navneetcode1/animated-plants-4461" className="project-github-link">Github</a>
-                <a href="https://fashionmantra.vercel.app/" className="project-deployed-link">Live server</a>
+                <a href="https://github.com/Navneetcode1/animated-plants-4461" target="next-page" className="project-github-link">Github</a>
+                <a href="https://fashionmantra.vercel.app/" target="next-page" className="project-deployed-link">Live server</a>
               </Box  >
             </Box>
             <Box className="slide-container" width={["100%", "100%", "50%", "50%"]} height={["40%", "40%", "100%", "99%"]}>
@@ -155,8 +155,8 @@ const Projects = () => {
                 </Box>
               </Box>
               <Box className="live-button" marginTop={["60px", "10px", "60px", "80px"]} >
-                <a href="https://github.com/Prashant1562/IndustryBuying-Clone" className="project-github-link">Github</a>
-                <a href="https://soft-dogs-2567.netlify.app/" className="project-deployed-link">Live server</a>
+                <a href="https://github.com/Prashant1562/IndustryBuying-Clone" target="next-page" className="project-github-link">Github</a>
+                <a href="https://soft-dogs-2567.netlify.app/" target="next-page" className="project-deployed-link">Live server</a>
               </Box>
             </Box>
           </Box>
@@ -178,8 +178,8 @@ const Projects = () => {
                 </Box>
               </Box>
               <Box marginTop={["10px", "10px", "60px", "50px"]} className="live-button">
-                <a href="https://github.com/Elizah7/gullible-pear-795" className="project-github-link">Github</a>
-                <a href="https://gullible-pear-795.vercel.app/" className="project-deployed-link">Live server</a>
+                <a href="https://github.com/Elizah7/gullible-pear-795" target="next-page" className="project-github-link">Github</a>
+                <a href="https://gullible-pear-795.vercel.app/" target="next-page" className="project-deployed-link">Live server</a>
               </Box  >
             </Box>
             <Box className="slide-container" width={["100%", "100%", "50%", "50%"]} height={["40%", "40%", "100%", "99%"]}>
@@ -198,7 +198,7 @@ const Projects = () => {
         </Box>
 
       </Box>
-      <Box className="github-section" marginTop={["5%","5%","50%","5%"]}>
+      <Box className="github-section" marginTop={["5%","5%","5%","5%"]}>
         <Calender />
       </Box>
 

@@ -9,7 +9,7 @@ const Contect = () => {
     const form = useRef();
     const toast = useToast()
     function sendEmail(e) {
-        e.preventDefault();  
+        e.preventDefault();
 
         emailjs.sendForm('service_oagozmk', 'template_qjqhwtx', e.target, 'OuzZBMHHoETuNVlA-')
             .then((result) => {
@@ -36,6 +36,7 @@ const Contect = () => {
             <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>Contacts</Heading>
             <Box marginTop="20px">
                 <h1 className="h4" id="contact-phone">Phone No : +91 8808346600</h1>
+                <h2  id="contactEmail" > Email : uddeshiv0@gmail.com</h2>
                 <HStack className="contact-child" width={["100%", "95%", "70%", "50%"]} height={["250px", "250px", "300px", "300px"]}>
                     <Box id="contact-github">
                         <a href="https://github.com/Elizah7" target="next-page">
@@ -63,23 +64,23 @@ const Contect = () => {
                     </Box>
                 </HStack>
             </Box>
-            <Box width={["100%","100%","50%","50%"]} className="form" margin="auto" marginTop="50px" id="contact-email"  padding={["1%","1%","1%","1%"]}>
+            <Box width={["100%", "100%", "50%", "50%"]} className="form" margin="auto" marginTop="50px" id="contact-email" padding={["1%", "1%", "1%", "1%"]}>
                 <Heading as="h1">Email</Heading>
                 <Box marginTop="5%"  >
-            <form ref={form} onSubmit={sendEmail} >
-                <FormLabel><Heading as="h6" fontSize="120%">Name</Heading></FormLabel>
-                <Input type="text" name="user_name" />
-                <FormLabel><Heading as="h6" fontSize="120%">Email</Heading></FormLabel>
-                <Input type="email" name="user_email" />
-                <FormLabel><Heading as="h6" fontSize="120%">Subject</Heading></FormLabel>
-                <Input type="text" name="subject" />
-                <FormLabel><Heading as="h6" fontSize="120%">Message</Heading></FormLabel>
-                <textarea name="message" />
-                <Input type="submit" value="Send"  className="from_submit"/>
-            </form>
+                    <form ref={form} onSubmit={sendEmail} >
+                        <FormLabel><Heading as="h6" fontSize="120%">Name</Heading></FormLabel>
+                        <Input type="text" name="user_name" />
+                        <FormLabel><Heading as="h6" fontSize="120%">Email</Heading></FormLabel>
+                        <Input type="email" name="user_email" />
+                        <FormLabel><Heading as="h6" fontSize="120%">Subject</Heading></FormLabel>
+                        <Input type="text" name="subject" />
+                        <FormLabel><Heading as="h6" fontSize="120%">Message</Heading></FormLabel>
+                        <textarea name="message" />
+                        <Input type="submit" value="Send" className="from_submit" />
+                    </form>
+                </Box>
             </Box>
-            </Box>
-       <Heading marginTop="5%" as="h1">Thanks for visiting </Heading>
+            <Heading marginTop="5%" as="h1">Thanks for visiting </Heading>
         </Box>
 
     )

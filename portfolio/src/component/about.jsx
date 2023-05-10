@@ -8,7 +8,7 @@ const About = () => {
     return <Box className=" section nav-link about" width="100%" id="about"   gap="5%" paddingTop={["15%", "15%", "12%", "6%"]} textAlign="center">
         <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>About Me</Heading>
         <Box display={{ base: "block", md: "flex" }}>
-            <Box className="image-section" width={["80%", "75%", "50%", "30%"]} margin="auto" marginTop="4%" borderRadius="50%">
+            <Box className="image-section" width={["80%", "75%", "40%", "30%"]} margin="auto" marginTop="4%" borderRadius="50%">
                 <Image src="https://ca.slack-edge.com/T044M5T44JV-U045JEVURMH-960522c0f125-512" className="img-fluid home-img" borderRadius="50%" />
             </Box>
             <Box className="about-section" width={["95%", "98%", "50%", "50%"]} margin="auto" textAlign="center" id="user-detail-intro">
