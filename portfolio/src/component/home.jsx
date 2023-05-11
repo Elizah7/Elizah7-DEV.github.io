@@ -1,6 +1,6 @@
 import { Box, Button, Heading, Image, Link, Stack } from "@chakra-ui/react";
 import React from "react";
-import resume from "../Resume/uddeshy_resume.pdf"
+import resume from "../Resume/uddeshy _jaiswal_resume.pdf"
 import {FiDownload} from "react-icons/fi"
 
 const Home = ()=>{

@@ -5,7 +5,7 @@ import { Projects } from "./projects";
 import { Skills } from "./skills";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx"
-import resume from "../Resume/uddeshy_resume.pdf"
+import resume from "../Resume/uddeshy _jaiswal_resume.pdf"
 import { useRef, useState } from "react";
 import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, HStack, Image, Input, Stack, useDisclosure, Link, Heading } from "@chakra-ui/react";
 import HamMenu from "./drawer"
