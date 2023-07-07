@@ -9,7 +9,7 @@ const About = () => {
         <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>About Me</Heading>
         <Box display={{ base: "block", md: "flex" }}>
             <Box className="image-section" width={["80%", "75%", "40%", "30%"]} margin="auto" marginTop="4%" borderRadius="50%">
-                <Image src="https://ca.slack-edge.com/T044M5T44JV-U045JEVURMH-960522c0f125-512" className="img-fluid home-img" borderRadius="50%" />
+                <Image src="https://ca.slack-edge.com/T0569PTR1QV-U056MRYC93L-149b1690a85b-512" className="img-fluid home-img" borderRadius="50%" />
             </Box>
             <Box className="about-section" width={["95%", "98%", "50%", "50%"]} margin="auto" textAlign="center" id="user-detail-intro">
                 <Heading as="h1"> A Full Stack MERN Developer</Heading>

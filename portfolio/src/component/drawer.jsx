@@ -2,6 +2,7 @@ import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, Draw
 import React, { useRef } from 'react'
 import resume from "../Resume/uddeshy _jaiswal_resume.pdf"
 import { CloseIcon, HamburgerIcon, Search2Icon, } from "@chakra-ui/icons";
+
 const HamMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = useRef()
@@ -9,9 +10,10 @@ const HamMenu = () => {
     onClose()
 }
   return (<Box>
-    <IconButton icon={<HamburgerIcon />}
+    <IconButton icon={<HamburgerIcon color="black"/>}
       display={{ md: "none" }}
-      color="black"
+      backgroundColor="black"
+      color="white"
       onClick={isOpen ? onClose : onOpen}
     />
     <Drawer
