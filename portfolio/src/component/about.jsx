@@ -4,7 +4,6 @@ import React from "react";
 
 
 const About = () => {
-
     return <Box className=" section nav-link about" width="100%" id="about" gap="5%" paddingTop={["15%", "15%", "12%", "6%"]} textAlign="center">
         <Heading as="h1" fontSize={["3xl", "3xl", "4xl", "4xl"]}>About Me</Heading>
         <Box display={{ base: "block", md: "flex" }}>
